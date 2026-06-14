@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf100013c0f49f4da9b9959999be21b, type: 3}
+  m_Name: Wave_Map_01_R30
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.WaveData
+  difficultyMultiplier: 1
+  entries:
+  - enemyData: {fileID: 11400000, guid: b78bf2371093fce438febd79710d36f7, type: 2}
+    count: 3
+    interval: 3
+    startDelay: 0
+  - enemyData: {fileID: 11400000, guid: b5debddcf2ce3254695274c56244e6c1, type: 2}
+    count: 5
+    interval: 1
+    startDelay: 3

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Wizard
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Wizard Monkey
+  description: "B\u1EAFn tia ph\xE9p thu\u1EADt \u2014 xuy\xEAn Purple Bloon \u1EDF
+    tier cao. C\xF3 th\u1EC3 tri\u1EC7u h\u1ED3i Fireball v\xE0 zombie."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 6755284185677216347, guid: 5cc38cae310cef54ea877f44f34941b0, type: 3}
+  cost: 400
+  terrainType: 0
+  towerType: 13
+  towerCategory: 2
+  attackRange: 3
+  attackSpeed: 1.4
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 1
+  upgrades:
+  - tiers:
+    - upgradeName: Guided Magic
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "Bolt t\u1EF1 d\u1EABn h\u01B0\u1EDBng sang enemy g\u1EA7n nh\u1EA5t."
+      statChanges: []
+    - upgradeName: Arcane Blast
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: +1 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Arcane Mastery
+      xpUnlockCost: 600
+      goldBuyCost: 900
+      description: "+2 damage, b\u1EAFn nhanh h\u01A1n."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+      - type: 3
+        op: 1
+        value: 1.2
+    - upgradeName: Arcane Spike
+      xpUnlockCost: 2500
+      goldBuyCost: 4000
+      description: +8 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 8
+    - upgradeName: Archmage
+      xpUnlockCost: 10000
+      goldBuyCost: 80000
+      description: "+20 damage, t\u1ED1c \xD72.0, tri\u1EC7u h\u1ED3i Dragon Spirit."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 20
+      - type: 3
+        op: 1
+        value: 2
+  - tiers:
+    - upgradeName: Fireball
+      xpUnlockCost: 0
+      goldBuyCost: 400
+      description: "Active: n\xE9m fireball AOE (6s CD, radius 1.5u)."
+      statChanges: []
+    - upgradeName: Wall of Fire
+      xpUnlockCost: 400
+      goldBuyCost: 650
+      description: "Active: t\u01B0\u1EDDng l\u1EEDa ch\u1EB7n ngang path (15s CD)."
+      statChanges: []
+    - upgradeName: Shimmer
+      xpUnlockCost: 1000
+      goldBuyCost: 1500
+      description: "Bolt tr\xFAng \u2192 x\xF3a Camo kh\u1ECFi Bloon 3s."
+      statChanges: []
+    - upgradeName: Reanimate
+      xpUnlockCost: 3500
+      goldBuyCost: 2000
+      description: "Bloon ch\u1EBFt \u0111\xF4i khi h\u1ED3i sinh th\xE0nh Zombie
+        Bloon."
+      statChanges: []
+    - upgradeName: Necromancer
+      xpUnlockCost: 12000
+      goldBuyCost: 20000
+      description: "Zombie Bloon army \u2014 zombie t\u1EA5n c\xF4ng Bloon kh\xE1c."
+      statChanges: []
+  - tiers:
+    - upgradeName: Intense Magic
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: +1 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Monkey Sense
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "Nh\xECn th\u1EA5y Camo Bloon."
+      statChanges: []
+    - upgradeName: Shimmer
+      xpUnlockCost: 600
+      goldBuyCost: 900
+      description: "Strip camo/regrow kh\u1ECFi Bloon khi tr\xFAng."
+      statChanges: []
+    - upgradeName: Dark Castle
+      xpUnlockCost: 2500
+      goldBuyCost: 4000
+      description: "Aura th\u1EE5 \u0111\u1ED9ng \u2014 t\u0103ng t\u1ED1c zombie
+        t\u1EEB Path 2."
+      statChanges: []
+    - upgradeName: Prince of Darkness
+      xpUnlockCost: 10000
+      goldBuyCost: 60000
+      description: "Undead army kh\u1ED5ng l\u1ED3, zombie h\u1ED3i sinh li\xEAn
+        t\u1EE5c."
+      statChanges: []

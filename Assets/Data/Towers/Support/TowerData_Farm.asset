@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Farm
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Banana Farm
+  description: "Thu nh\u1EADp th\u1EE5 \u0111\u1ED9ng $80/round. Upgrade \u0111\u1EC3
+    t\u0103ng income ho\u1EB7c \u0111\u1ED5i sang ch\u1EBF \u0111\u1ED9 bank."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 5611002897506225924, guid: 52b8a3751d1e79946a65c2a013dca59d, type: 3}
+  cost: 1250
+  terrainType: 0
+  towerType: 18
+  towerCategory: 3
+  attackRange: 3
+  attackSpeed: 1
+  damage: 0
+  pierce: 0
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: More Bananas
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: +$25 income/round.
+      statChanges: []
+    - upgradeName: Banana Plantation
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: +$65 income/round.
+      statChanges: []
+    - upgradeName: Banana Farm
+      xpUnlockCost: 600
+      goldBuyCost: 1500
+      description: "Income \u2192 $200/round."
+      statChanges: []
+    - upgradeName: Banana Research F
+      xpUnlockCost: 2500
+      goldBuyCost: 8000
+      description: "Income \u2192 $640/round."
+      statChanges: []
+    - upgradeName: Banana Central
+      xpUnlockCost: 10000
+      goldBuyCost: 80000
+      description: "Income \u2192 $9999/round."
+      statChanges: []
+  - tiers:
+    - upgradeName: Monkey Business
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: Sell refund +10% (80% total).
+      statChanges: []
+    - upgradeName: Monkey Commerce
+      xpUnlockCost: 200
+      goldBuyCost: 500
+      description: +$20 income/round.
+      statChanges: []
+    - upgradeName: IMF Loan
+      xpUnlockCost: 600
+      goldBuyCost: 12500
+      description: "Loan $10000, tr\u1EA3 $500/round\xD720."
+      statChanges: []
+    - upgradeName: Monkey Bank
+      xpUnlockCost: 2500
+      goldBuyCost: 7500
+      description: "\xD74 income multiplier."
+      statChanges: []
+    - upgradeName: Monkey-Nomics
+      xpUnlockCost: 10000
+      goldBuyCost: 100000
+      description: "\xD710 income, n\u1EC1n t\u1EA3ng kinh t\u1EBF."
+      statChanges: []
+  - tiers:
+    - upgradeName: EZ Collect
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: "T\u1EF1 thu bananas cu\u1ED1i round."
+      statChanges: []
+    - upgradeName: Backroom Deals
+      xpUnlockCost: 200
+      goldBuyCost: 250
+      description: +$40 income/round.
+      statChanges: []
+    - upgradeName: Offshore Accounts
+      xpUnlockCost: 600
+      goldBuyCost: 3000
+      description: +$150 income/round.
+      statChanges: []
+    - upgradeName: Marketplace
+      xpUnlockCost: 2500
+      goldBuyCost: 15000
+      description: "\xD72 income multiplier."
+      statChanges: []
+    - upgradeName: Central Market
+      xpUnlockCost: 10000
+      goldBuyCost: 200000
+      description: "\xD78 income \u2014 end-game economy."
+      statChanges: []

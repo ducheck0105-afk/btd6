@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Corvus_Amalgamation
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Amalgamation
+  description: "H\xFAt n\u0103ng l\u01B0\u1EE3ng \u2014 b\xF9ng n\u1ED5 AOE 40 dmg
+    quanh hero (gi\u1EA3 l\u1EADp drain 2 tower)."
+  icon: {fileID: 0}
+  xpCost: 1500
+  cooldown: 30
+  duration: 0
+  radius: 3
+  damage: 40
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 1
+  towerDamageMult: 1
+  grantsCamoReveal: 0

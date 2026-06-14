@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Bomb
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Bomb Shooter
+  description: "B\u1EAFn bom n\u1ED5 AOE \u2014 ph\xE1 \u0111\u01B0\u1EE3c Lead Bloon."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 6655081435167456474, guid: 36aa94e50b293884c8f864ffd42f09d9, type: 3}
+  cost: 525
+  terrainType: 0
+  towerType: 3
+  towerCategory: 0
+  attackRange: 3
+  attackSpeed: 0.95
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Bigger Bombs
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "B\xE1n k\xEDnh n\u1ED5 +0.5."
+      statChanges:
+      - type: 5
+        op: 0
+        value: 0.5
+    - upgradeName: Heavy Bombs
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: +2 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Really Big Bombs
+      xpUnlockCost: 600
+      goldBuyCost: 1500
+      description: "B\xE1n k\xEDnh +1.0, +3 damage."
+      statChanges:
+      - type: 5
+        op: 0
+        value: 1
+      - type: 0
+        op: 0
+        value: 3
+    - upgradeName: Bloon Impact
+      xpUnlockCost: 3000
+      goldBuyCost: 3000
+      description: "Stun Bloon 1s khi n\u1ED5."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Bloon Crush
+      xpUnlockCost: 10000
+      goldBuyCost: 20000
+      description: "Damage \xD73, stun MOAB 2s."
+      statChanges:
+      - type: 0
+        op: 1
+        value: 3
+  - tiers:
+    - upgradeName: Faster Fuse
+      xpUnlockCost: 0
+      goldBuyCost: 150
+      description: "B\u1EAFn nhanh h\u01A1n."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.3
+    - upgradeName: Missiles
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "B\u1EAFn nhanh + \u0111\u1EA1n bay nhanh."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.4
+      - type: 4
+        op: 1
+        value: 1.5
+    - upgradeName: MOAB Mauler
+      xpUnlockCost: 600
+      goldBuyCost: 900
+      description: +9 damage vs MOAB.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 9
+    - upgradeName: MOAB Assassin
+      xpUnlockCost: 3000
+      goldBuyCost: 5000
+      description: "Active: 1 \u0111\u1EA1n 500 damage v\xE0o MOAB."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: MOAB Eliminator
+      xpUnlockCost: 10000
+      goldBuyCost: 25000
+      description: "Active: 1 \u0111\u1EA1n 3000 damage."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 20
+  - tiers:
+    - upgradeName: Extra Burny Stuff
+      xpUnlockCost: 0
+      goldBuyCost: 250
+      description: "N\u1ED5 \u0111\u1EC3 l\u1EA1i v\xF9ng l\u1EEDa 2s."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Knock Back
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "N\u1ED5 \u0111\u1EA9y Bloon l\xF9i l\u1EA1i."
+      statChanges: []
+    - upgradeName: Aerial Burst
+      xpUnlockCost: 600
+      goldBuyCost: 1200
+      description: "M\u1ED7i bom t\xE1ch ra 3 bom nh\u1ECF."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Ground Zero
+      xpUnlockCost: 3000
+      goldBuyCost: 10000
+      description: "Active: nuke to\xE0n m\xE0n h\xECnh."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: Carpet Bombing
+      xpUnlockCost: 10000
+      goldBuyCost: 30000
+      description: "M\xE1y bay r\u1EA3i 8 bom d\u1ECDc \u0111\u01B0\u1EDDng."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3

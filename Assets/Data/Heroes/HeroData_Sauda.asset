@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Sauda
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Sauda
+  description: "Ki\u1EBFm s\u0129 \u2014 ch\xE9m AOE c\u1EADn chi\u1EBFn t\u1ED1c
+    \u0111\u1ED9 cao."
+  icon: {fileID: 0}
+  prefab: {fileID: 8253259103137301159, guid: e1b8a2240f084034cbce7ab39aa0fd01, type: 3}
+  cost: 600
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 2
+  attackSpeed: 3
+  damage: 2
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 0d5e8105fadae13428745d1c5e96b43e, type: 2}
+  - {fileID: 11400000, guid: 97f4db6e98d155a44bb5bf859225ae00, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Leaping Sword
+    description: "Nh\u1EA3y ch\xE9m c\u1EE5m \u0111\xF4ng \u2014 30 dmg AOE t\u1EE9c
+      th\u1EDDi quanh hero."
+    skillUnlocked: {fileID: 11400000, guid: 0d5e8105fadae13428745d1c5e96b43e, type: 2}
+  - level: 8
+    abilityName: Blade Maelstrom
+    description: "Quay ki\u1EBFm 360\xB0 \u2014 75 dmg AOE r\u1ED9ng (g\u1ED9p 5s
+      xo\xE1y th\xE0nh 1 \u0111\u1EE3t)."
+    skillUnlocked: {fileID: 11400000, guid: 97f4db6e98d155a44bb5bf859225ae00, type: 2}

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Druid
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Druid
+  description: "S\xE9t lan sang 3 enemy li\u1EC1n k\u1EC1 \u2014 isMagic=false n\xEAn
+    hit \u0111\u01B0\u1EE3c Purple Bloon."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 1661470779187023091, guid: 712f2f586b964574bab51479f1907be6, type: 3}
+  cost: 425
+  terrainType: 0
+  towerType: 17
+  towerCategory: 2
+  attackRange: 3
+  attackSpeed: 1.5
+  damage: 1
+  pierce: 3
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Hard Thorns
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: +1 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Heart of Thunder
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: "Lightning chain 5 enemy thay v\xEC 3."
+      statChanges: []
+    - upgradeName: Missile Thorn
+      xpUnlockCost: 600
+      goldBuyCost: 700
+      description: "+1 damage, t\u1ED1c \u0111\u1EA1n \xD72."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Ball Lightning
+      xpUnlockCost: 2500
+      goldBuyCost: 3000
+      description: "Ball lightning orbit tower, hit li\xEAn t\u1EE5c m\u1ECDi th\u1EE9
+        trong range."
+      statChanges: []
+    - upgradeName: Superstorm
+      xpUnlockCost: 10000
+      goldBuyCost: 45000
+      description: "Active: tornado \u0111\u1EA9y Bloon ng\u01B0\u1EE3c l\u1EA1i
+        path (60s CD)."
+      statChanges: []
+  - tiers:
+    - upgradeName: Thorn Swarm
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "T\u1ED1c \xD71.2."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.2
+    - upgradeName: Thorn Swarm II
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: Passive cloud gai xung quanh tower slow+damage.
+      statChanges: []
+    - upgradeName: Jungle's Bounty
+      xpUnlockCost: 600
+      goldBuyCost: 900
+      description: 'Passive: +$80/round.'
+      statChanges: []
+    - upgradeName: Druid of Jungle
+      xpUnlockCost: 2500
+      goldBuyCost: 3000
+      description: "Thorn swarm area \xD72."
+      statChanges: []
+    - upgradeName: Spirit of Forest
+      xpUnlockCost: 10000
+      goldBuyCost: 40000
+      description: "To\xE0n map ph\u1EE7 gai \u2014 damage passive m\u1ECDi Bloon."
+      statChanges: []
+  - tiers:
+    - upgradeName: Thorn Swarm
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "T\u1ED1c \xD71.1."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.1
+    - upgradeName: Druid of Storm
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: "Lightning nh\u1EA3y th\xEAm 1 l\u1EA7n trong chain."
+      statChanges: []
+    - upgradeName: Poplust
+      xpUnlockCost: 600
+      goldBuyCost: 1000
+      description: "Druid g\u1EA7n nhau: +1 attack, +1 pierce."
+      statChanges: []
+    - upgradeName: Druid of Wrath
+      xpUnlockCost: 2500
+      goldBuyCost: 2000
+      description: "Attack speed t\u0103ng theo s\u1ED1 Bloon tr\xEAn map."
+      statChanges: []
+    - upgradeName: Avatar of Wrath
+      xpUnlockCost: 8000
+      goldBuyCost: 35000
+      description: "T\u1ED1c max \xD710 khi map \u0111\u1EA7y, t\u1ED5ng h\u1EE3p
+        m\u1ECDi buff Druid."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 3

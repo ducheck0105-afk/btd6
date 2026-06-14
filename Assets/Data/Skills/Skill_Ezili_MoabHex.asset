@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Ezili_MoabHex
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: MOAB Hex
+  description: "Nguy\u1EC1n r\u1EE7a AOE \u2014 75 dmg t\u1EE9c th\xEC l\xEAn bloon
+    trong v\xF9ng nh\u1ECF (gi\u1EA3 l\u1EADp hex)."
+  icon: {fileID: 0}
+  xpCost: 4000
+  cooldown: 50
+  duration: 0
+  radius: 2
+  damage: 75
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 1

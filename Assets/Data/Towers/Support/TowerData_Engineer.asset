@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Engineer
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Engineer Monkey
+  description: "B\u1EAFn nail gun \u0111\u1ED3ng th\u1EDDi spawn Sentry Gun m\u1ED7i
+    30s. Sentry t\u1EF1 attack."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 963994642487866652, guid: 88d8e67c1ee98c14597552791feddd42, type: 3}
+  cost: 600
+  terrainType: 0
+  towerType: 21
+  towerCategory: 3
+  attackRange: 3
+  attackSpeed: 1
+  damage: 1
+  pierce: 2
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Larger Service Area
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: Range +0.5.
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.5
+    - upgradeName: Sprockets
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: Sentry spawn cooldown -10s.
+      statChanges: []
+    - upgradeName: Oversize Nails
+      xpUnlockCost: 600
+      goldBuyCost: 600
+      description: Nail damage +1.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Sentry Expert
+      xpUnlockCost: 2500
+      goldBuyCost: 2500
+      description: "Sentry stats \xD72 (dmg + t\u1ED1c)."
+      statChanges: []
+    - upgradeName: Sentry Champion
+      xpUnlockCost: 10000
+      goldBuyCost: 30000
+      description: "Sentry pierce \u221E, target MOAB."
+      statChanges: []
+  - tiers:
+    - upgradeName: Larger Service Area
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: Range +0.5.
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.5
+    - upgradeName: Bigger Jets
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "[special] Jetpack Sentry bay, ph\u1EE7 nhi\u1EC1u h\u01A1n."
+      statChanges: []
+    - upgradeName: Robo Monkey
+      xpUnlockCost: 600
+      goldBuyCost: 1200
+      description: "[special] Sentry d\u1EA1ng robo, attack \u0111\xF4i."
+      statChanges: []
+    - upgradeName: Overclock
+      xpUnlockCost: 2500
+      goldBuyCost: 14500
+      description: "[active] 1 tower \xD72 t\u1ED1c +25% pierce 20s (40s CD)."
+      statChanges: []
+    - upgradeName: Ultraboost
+      xpUnlockCost: 10000
+      goldBuyCost: 120000
+      description: "Overclock v\u0129nh vi\u1EC5n tr\xEAn target tower."
+      statChanges: []
+  - tiers:
+    - upgradeName: Cleansing Foam
+      xpUnlockCost: 0
+      goldBuyCost: 400
+      description: "[special] Deploy foam cannon \u2014 strip camo+regrow."
+      statChanges: []
+    - upgradeName: Nail Gun
+      xpUnlockCost: 200
+      goldBuyCost: 450
+      description: "Nail t\u1ED1c \xD71.5, pierce +2."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.5
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Cleansing Foam II
+      xpUnlockCost: 600
+      goldBuyCost: 800
+      description: "Foam area \xD72."
+      statChanges: []
+    - upgradeName: Tape Blaster
+      xpUnlockCost: 2500
+      goldBuyCost: 2000
+      description: Tape gun slow bloon 30%.
+      statChanges: []
+    - upgradeName: XXXL Trap
+      xpUnlockCost: 10000
+      goldBuyCost: 15000
+      description: "[special] B\u1EABy kh\u1ED5ng l\u1ED3 h\u1EA5p th\u1EE5 c\u1EA3
+        MOAB class."
+      statChanges: []

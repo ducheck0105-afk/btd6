@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Etienne_SurveillanceDrone
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Surveillance Drone
+  description: "Drone trinh s\xE1t \u2014 l\u1ED9 to\xE0n b\u1ED9 camo bloon (c\u1EA5p
+    camo-detect cho hero + m\u1ECDi tower)."
+  icon: {fileID: 0}
+  xpCost: 1800
+  cooldown: 50
+  duration: 0
+  radius: 0
+  damage: 0
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 1
+  grantsCamoReveal: 1

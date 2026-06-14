@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Rosalia_OverclockSupercharge
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Overclock Supercharge
+  description: "Target tower g\u1EA7n nh\u1EA5t: \xD73 t\u1ED1c b\u1EAFn + \xD72
+    damage trong 15s."
+  icon: {fileID: 0}
+  xpCost: 4000
+  cooldown: 60
+  duration: 15
+  radius: 0
+  damage: 0
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 3
+  towerDamageMult: 2
+  grantsCamoReveal: 0

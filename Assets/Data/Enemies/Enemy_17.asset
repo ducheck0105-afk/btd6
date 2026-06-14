@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d3652cea22c24eb46183897650129, type: 3}
+  m_Name: Enemy_17
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.EnemyData
+  enemyName: BAD
+  bloonType: 17
+  icon: {fileID: 0}
+  prefab: {fileID: 5886064792087690881, guid: 24827394bee36b54aab6dcb16f198d5d, type: 3}
+  maxHP: 20000
+  armor: 0
+  moveSpeed: 0.18
+  reward: 10000
+  livesLost: 1
+  isCamo: 0
+  isLead: 0
+  isFrozenImmune: 0
+  childOnDeath: {fileID: 11400000, guid: 2e5a7829e4d3af24589c8d677e5b0b0a, type: 2}
+  childCount: 2
+  childOnDeath2: {fileID: 11400000, guid: 9f1f575eef1cd9a43a0f7bb0a00752f0, type: 2}
+  childCount2: 2
+  isRegrow: 0

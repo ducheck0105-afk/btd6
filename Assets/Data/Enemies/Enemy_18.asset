@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d3652cea22c24eb46183897650129, type: 3}
+  m_Name: Enemy_18
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.EnemyData
+  enemyName: Camo Red
+  bloonType: 1
+  icon: {fileID: 0}
+  prefab: {fileID: 4235924047794253940, guid: 45d1a48e05249184390ab4d6eabd3426, type: 3}
+  maxHP: 1
+  armor: 0
+  moveSpeed: 1
+  reward: 1
+  livesLost: 1
+  isCamo: 1
+  isLead: 0
+  isFrozenImmune: 0
+  childOnDeath: {fileID: 0}
+  childCount: 1
+  childOnDeath2: {fileID: 0}
+  childCount2: 1
+  isRegrow: 0

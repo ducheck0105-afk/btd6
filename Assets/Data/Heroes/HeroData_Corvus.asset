@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Corvus
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Corvus
+  description: "Ph\xE1p s\u01B0 b\xF3ng t\u1ED1i \u2014 \u0111i\u1EC1u khi\u1EC3n
+    qu\u1EA1 bay b\u1EAFn ph\xE9p, AOE n\u0103ng l\u01B0\u1EE3ng m\u1EA1nh."
+  icon: {fileID: 0}
+  prefab: {fileID: 8707710322473240753, guid: 1fe6ab9dab8938448ab5ebd368bc0dac, type: 3}
+  cost: 850
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 4
+  attackSpeed: 1.3
+  damage: 2
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 1
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: efdf5b9f333def544a0da4d07bf11911, type: 2}
+  - {fileID: 11400000, guid: 7e2f5d68a0d46534796fccd206146d39, type: 2}
+  - {fileID: 11400000, guid: de2d54ad91d99884d8412dd3539bf37e, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Amalgamation
+    description: "H\xFAt n\u0103ng l\u01B0\u1EE3ng \u2014 b\xF9ng n\u1ED5 AOE 40
+      dmg quanh hero (gi\u1EA3 l\u1EADp drain 2 tower)."
+    skillUnlocked: {fileID: 11400000, guid: efdf5b9f333def544a0da4d07bf11911, type: 2}
+  - level: 8
+    abilityName: Levitation
+    description: "Treo l\u01A1 l\u1EEDng \u2014 100 dmg AOE nh\u1ECF + \u0111\u1EA1i
+      di\u1EC7n nh\xE2n \u0111\xF4i s\xE1t th\u01B0\u01A1ng l\xEAn MOAB."
+    skillUnlocked: {fileID: 11400000, guid: 7e2f5d68a0d46534796fccd206146d39, type: 2}
+  - level: 12
+    abilityName: Annihilation
+    description: "N\u1ED5 tung n\u0103ng l\u01B0\u1EE3ng \u2014 200 dmg AOE di\u1EC7n
+      r\u1ED9ng."
+    skillUnlocked: {fileID: 11400000, guid: de2d54ad91d99884d8412dd3539bf37e, type: 2}

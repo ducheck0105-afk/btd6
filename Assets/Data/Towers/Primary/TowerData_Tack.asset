@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Tack
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Tack Shooter
+  description: "B\u1EAFn 8 tack ra m\u1ECDi h\u01B0\u1EDBng c\xF9ng l\xFAc."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 5525669760606063028, guid: 205f13990ee519e428df9ac540e860a8, type: 3}
+  cost: 360
+  terrainType: 0
+  towerType: 1
+  towerCategory: 0
+  attackRange: 1.8
+  attackSpeed: 0.9
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Faster Shooting
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "B\u1EAFn nhanh h\u01A1n."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.3
+    - upgradeName: Even Faster Shooting
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: "B\u1EAFn nhanh h\u01A1n n\u1EEFa."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.4
+    - upgradeName: Hot Shots
+      xpUnlockCost: 600
+      goldBuyCost: 400
+      description: "Tack l\u1EEDa, \u0111\u1ED1t Bloon."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Ring of Fire
+      xpUnlockCost: 3000
+      goldBuyCost: 2500
+      description: "V\xF2ng l\u1EEDa li\xEAn t\u1EE5c quanh tower."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Inferno Ring
+      xpUnlockCost: 10000
+      goldBuyCost: 12000
+      description: "T\u1ED1c \u0111\u1ED9 \xD73, +5 damage."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 3
+      - type: 0
+        op: 0
+        value: 5
+  - tiers:
+    - upgradeName: More Tacks
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "Xuy\xEAn +1."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 1
+    - upgradeName: Even More Tacks
+      xpUnlockCost: 200
+      goldBuyCost: 250
+      description: "Xuy\xEAn +2."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Tack Sprayer
+      xpUnlockCost: 600
+      goldBuyCost: 400
+      description: "B\u1EAFn 16 h\u01B0\u1EDBng thay v\xEC 8."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 1
+    - upgradeName: Overdrive
+      xpUnlockCost: 3000
+      goldBuyCost: 3000
+      description: "Active: t\u1ED1c \u0111\u1ED9 \xD73 trong 10s."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 3
+    - upgradeName: Super Maelstrom
+      xpUnlockCost: 10000
+      goldBuyCost: 15000
+      description: "T\u1ED1c \u0111\u1ED9 \xD75, xuy\xEAn \xD72."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 5
+      - type: 1
+        op: 1
+        value: 2
+  - tiers:
+    - upgradeName: Long Range Tacks
+      xpUnlockCost: 0
+      goldBuyCost: 150
+      description: "T\u1EA7m +0.4."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.4
+    - upgradeName: Super Range Tacks
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "T\u1EA7m +0.6."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.6
+    - upgradeName: Blade Shooter
+      xpUnlockCost: 600
+      goldBuyCost: 500
+      description: "+1 damage, +1 xuy\xEAn, \u0111\u1EA1n nhanh."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+      - type: 1
+        op: 0
+        value: 1
+      - type: 4
+        op: 1
+        value: 1.5
+    - upgradeName: Blade Maelstrom
+      xpUnlockCost: 3000
+      goldBuyCost: 3000
+      description: 'Active: nuke enemy quanh 10u.'
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Super Maelstrom
+      xpUnlockCost: 10000
+      goldBuyCost: 20000
+      description: "B\xE3o dao to\xE0n range."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+      - type: 1
+        op: 0
+        value: 5

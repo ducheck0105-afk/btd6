@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_StrikerJones
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Striker Jones
+  description: "Binh s\u0129 ph\xE1o \u2014 n\xE9m l\u1EF1u \u0111\u1EA1n n\u1ED5
+    di\u1EC7n r\u1ED9ng."
+  icon: {fileID: 0}
+  prefab: {fileID: 9118040778010919151, guid: e3dda9e6bbcc7c5478e808a90c045efa, type: 3}
+  cost: 735
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 3.5
+  attackSpeed: 1
+  damage: 6
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 1
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 8d56a611170dc374d8720d9af0ba47ac, type: 2}
+  - {fileID: 11400000, guid: 4dff8f32c9c17804a81ad4d28b6b34da, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Artillery Command
+    description: "Ph\xF3ng lo\u1EA1t ph\xE1o AOE \u2014 10 dmg t\u1EA5t c\u1EA3 bloon
+      trong v\xF2ng b\xE1n k\xEDnh r\u1ED9ng."
+    skillUnlocked: {fileID: 11400000, guid: 8d56a611170dc374d8720d9af0ba47ac, type: 2}
+  - level: 8
+    abilityName: Concussive Shell
+    description: "B\u1EAFn rocket t\u1EADp trung \u2014 30 dmg AOE nh\u1ECF t\u1EA1i
+      \u0111i\u1EC3m ch\u1EC9 \u0111\u1ECBnh."
+    skillUnlocked: {fileID: 11400000, guid: 4dff8f32c9c17804a81ad4d28b6b34da, type: 2}

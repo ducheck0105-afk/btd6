@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Brickell_MegaMine
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Mega Mine
+  description: "Th\u1EA3 m\xECn l\u1EDBn \u2014 200 dmg AOE t\u1EA1i v\xF9ng quanh
+    hero."
+  icon: {fileID: 0}
+  xpCost: 4000
+  cooldown: 40
+  duration: 0
+  radius: 3
+  damage: 200
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 1
+  grantsCamoReveal: 0

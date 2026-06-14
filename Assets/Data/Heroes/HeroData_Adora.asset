@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Adora
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Adora
+  description: "N\u1EEF t\u01B0 t\u1EBF \xE1nh s\xE1ng \u2014 tia m\u1EB7t tr\u1EDDi
+    xuy\xEAn, s\xE1t th\u01B0\u01A1ng cao."
+  icon: {fileID: 21300000, guid: 60bd6e7267a3254489b5e2a9846c7d53, type: 3}
+  prefab: {fileID: 8145774600949627880, guid: fe37d6cbe4939e649808ff61754c8cfc, type: 3}
+  cost: 50
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 4.5
+  attackSpeed: 1.5
+  damage: 2
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 2e14395f4fd726b47a6e727070a5268a, type: 2}
+  - {fileID: 11400000, guid: 93be62811b15ce1498c6ce8960d97b75, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Ball of Light
+    description: "Qu\u1EA3 c\u1EA7u \xE1nh s\xE1ng \u2014 30 dmg AOE quanh hero."
+    skillUnlocked: {fileID: 11400000, guid: 2e14395f4fd726b47a6e727070a5268a, type: 2}
+  - level: 8
+    abilityName: Blood Sacrifice
+    description: "Hi\u1EBFn t\u1EBF l\u1EA5y s\u1EE9c m\u1EA1nh \u2014 \xD72 t\u1ED1c
+      b\u1EAFn trong 12s (gi\u1EA3 l\u1EADp power gain, hi\u1EBFn t\u1EBF tower code
+      sau)."
+    skillUnlocked: {fileID: 11400000, guid: 93be62811b15ce1498c6ce8960d97b75, type: 2}

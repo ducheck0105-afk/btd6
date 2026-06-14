@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Buccaneer
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Monkey Buccaneer
+  description: "T\xE0u chi\u1EBFn \u0111\u1EB7t d\u01B0\u1EDBi n\u01B0\u1EDBc \u2014
+    b\u1EAFn ph\xE1o xuy\xEAn nhi\u1EC1u Bloon."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 7695208836788704750, guid: 55b73c01961941d448ddbf1488a21beb, type: 3}
+  cost: 500
+  terrainType: 1
+  towerType: 8
+  towerCategory: 1
+  attackRange: 4
+  attackSpeed: 1
+  damage: 1
+  pierce: 4
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Faster Shooting
+      xpUnlockCost: 0
+      goldBuyCost: 250
+      description: "B\u1EAFn nhanh \xD71.3."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.3
+    - upgradeName: Double Shot
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "B\u1EAFn 2 \u0111\u1EA1n \u0111\u1ED3ng th\u1EDDi."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Destroyer
+      xpUnlockCost: 600
+      goldBuyCost: 2500
+      description: "B\u1EAFn nhanh \xD72."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 2
+    - upgradeName: Carrier Flagship
+      xpUnlockCost: 3500
+      goldBuyCost: 6500
+      description: "Spawn 2 m\xE1y bay nh\u1ECF orbit."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: X Bow Fort
+      xpUnlockCost: 12000
+      goldBuyCost: 16000
+      description: "4 m\xE1y bay + ph\xE1o AOE m\u1ED7i 5s."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3
+  - tiers:
+    - upgradeName: Merchantman
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: Passive +$20/round.
+      statChanges: []
+    - upgradeName: Favored Trades
+      xpUnlockCost: 200
+      goldBuyCost: 600
+      description: "Income +$50/round (t\u1ED5ng $70)."
+      statChanges: []
+    - upgradeName: Trade Empire
+      xpUnlockCost: 600
+      goldBuyCost: 2000
+      description: Income +$100/round.
+      statChanges: []
+    - upgradeName: Pirate Lord
+      xpUnlockCost: 3500
+      goldBuyCost: 15000
+      description: Income +$200/round + hook MOAB.
+      statChanges: []
+    - upgradeName: Trade Empire Max
+      xpUnlockCost: 12000
+      goldBuyCost: 25000
+      description: "Income \xD72, hook CD gi\u1EA3m."
+      statChanges: []
+  - tiers:
+    - upgradeName: Grape Shot
+      xpUnlockCost: 0
+      goldBuyCost: 350
+      description: "M\u1ED7i \u0111\u1EA1n spray th\xEAm 8 pellet nh\u1ECF."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Cannon Ship
+      xpUnlockCost: 200
+      goldBuyCost: 500
+      description: +2 damage, AOE radius=1u.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Monkey Pirates
+      xpUnlockCost: 600
+      goldBuyCost: 1500
+      description: "Active: b\u1EAFt 1 Bloon kh\u1ECFi track."
+      statChanges: []
+    - upgradeName: Abyss of Bloons
+      xpUnlockCost: 3500
+      goldBuyCost: 12000
+      description: "+5 damage, k\xE9o Bloon v\u1EC1 start."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: Carrier Flagship
+      xpUnlockCost: 12000
+      goldBuyCost: 22000
+      description: "3 m\xE1y bay orbit + ph\xE1o passive."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_CaptainChurchill
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Captain Churchill
+  description: "Tank ch\u1EC9 huy \u2014 cannon n\u1ED5 ch\u1EADm + s\xFAng m\xE1y
+    nhanh \u0111\u1ED3ng th\u1EDDi."
+  icon: {fileID: 0}
+  prefab: {fileID: 1888768466125996824, guid: 936a99a2f4f2cb34cb0c74e1b81f2bbe, type: 3}
+  cost: 2000
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 4
+  attackSpeed: 0.8
+  damage: 6
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 1
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 3e8c813952af4ba46a42e3be0adf44ec, type: 2}
+  - {fileID: 11400000, guid: 16cf5dacc00b1fa4d8028ad5d54ae716, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Armor Piercing Shells
+    description: "T\u0103ng t\u1ED1c b\u1EAFn \xD71.3 trong 10s \u2014 \u0111\u1EA1i
+      di\u1EC7n cho \u0111\u1EA1n xuy\xEAn gi\xE1p t\u0103ng c\u01B0\u1EDDng."
+    skillUnlocked: {fileID: 11400000, guid: 3e8c813952af4ba46a42e3be0adf44ec, type: 2}
+  - level: 8
+    abilityName: MOAB Barrage
+    description: "Barrage t\u1EADp trung 150 dmg AOE \u2014 nh\u1EAFm ti\xEAu di\u1EC7t
+      MOAB class."
+    skillUnlocked: {fileID: 11400000, guid: 16cf5dacc00b1fa4d8028ad5d54ae716, type: 2}

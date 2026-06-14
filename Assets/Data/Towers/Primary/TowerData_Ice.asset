@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Ice
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Ice Monkey
+  description: "\u0110\xF3ng b\u0103ng t\u1EA5t c\u1EA3 Bloon trong t\u1EA7m \u2014
+    kh\xF4ng g\xE2y damage."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 8936686897502966739, guid: 6266143ada7d98343865a882bae00eb5, type: 3}
+  cost: 500
+  terrainType: 0
+  towerType: 4
+  towerCategory: 0
+  attackRange: 2
+  attackSpeed: 0.33
+  damage: 0
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Permafrost
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: "Bloon tan b\u0103ng b\u1ECB ch\u1EADm 50% th\xEAm 2s."
+      statChanges: []
+    - upgradeName: Cold Snap
+      xpUnlockCost: 200
+      goldBuyCost: 150
+      description: "\u0110\xF3ng b\u0103ng th\u01B0\u1EDDng xuy\xEAn h\u01A1n."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.3
+    - upgradeName: Ice Shards
+      xpUnlockCost: 600
+      goldBuyCost: 300
+      description: "Bloon ch\u1EBFt v\xEC b\u0103ng b\u1EAFn 8 m\u1EA3nh."
+      statChanges: []
+    - upgradeName: Embrittlement
+      xpUnlockCost: 3000
+      goldBuyCost: 2500
+      description: "Bloon \u0111\xF3ng b\u0103ng nh\u1EADn double damage."
+      statChanges: []
+    - upgradeName: Super Brittle
+      xpUnlockCost: 10000
+      goldBuyCost: 30000
+      description: "\u1EA2nh h\u01B0\u1EDFng c\u1EA3 frozen-immune, bonus MOAB."
+      statChanges: []
+  - tiers:
+    - upgradeName: Enhanced Freeze
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: "\u0110\xF3ng b\u0103ng l\xE2u h\u01A1n."
+      statChanges: []
+    - upgradeName: Deep Freeze
+      xpUnlockCost: 200
+      goldBuyCost: 200
+      description: "\u0110\xF3ng b\u0103ng \u0111\u01B0\u1EE3c White Bloon."
+      statChanges: []
+    - upgradeName: Arctic Wind
+      xpUnlockCost: 600
+      goldBuyCost: 1000
+      description: "T\u1EA7m +1.0, l\xE0m ch\u1EADm v\xF9ng l\u1EDBn."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 1
+    - upgradeName: Snowstorm
+      xpUnlockCost: 3000
+      goldBuyCost: 3500
+      description: "Active: \u0111\xF3ng b\u0103ng to\xE0n map 4s."
+      statChanges: []
+    - upgradeName: Absolute Zero
+      xpUnlockCost: 10000
+      goldBuyCost: 26000
+      description: "Active m\u1EA1nh h\u01A1n, slow v\u0129nh vi\u1EC5n."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 2
+  - tiers:
+    - upgradeName: Larger Radius
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: "T\u1EA7m +0.5."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.5
+    - upgradeName: Re-Freeze
+      xpUnlockCost: 200
+      goldBuyCost: 200
+      description: "\u0110\xF3ng b\u0103ng l\u1EA1i ngay, kh\xF4ng cooldown."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.5
+    - upgradeName: Cryo Cannon
+      xpUnlockCost: 600
+      goldBuyCost: 800
+      description: "B\u1EAFn \u0111\u1EA1n \u0111\xF3ng b\u0103ng thay v\xEC AOE."
+      statChanges: []
+    - upgradeName: Icicles
+      xpUnlockCost: 3000
+      goldBuyCost: 2000
+      description: "+2 damage, +10 xuy\xEAn."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+      - type: 1
+        op: 0
+        value: 10
+    - upgradeName: Icicle Impale
+      xpUnlockCost: 10000
+      goldBuyCost: 20000
+      description: +5 damage, slow MOAB 80%.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5

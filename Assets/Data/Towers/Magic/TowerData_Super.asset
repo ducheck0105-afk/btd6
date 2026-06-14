@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Super
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Super Monkey
+  description: "B\u1EAFn dart c\u1EF1c nhanh 10/s \u2014 coverage r\u1ED9ng nh\u01B0ng
+    cost cao."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 5961016959029486113, guid: b3b38d9c9724e75438952268f83b438c, type: 3}
+  cost: 2500
+  terrainType: 0
+  towerType: 14
+  towerCategory: 2
+  attackRange: 4.5
+  attackSpeed: 10
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 1
+  upgrades:
+  - tiers:
+    - upgradeName: Super Range
+      xpUnlockCost: 0
+      goldBuyCost: 1000
+      description: "T\u1EA7m +0.5."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.5
+    - upgradeName: Epic Range
+      xpUnlockCost: 500
+      goldBuyCost: 2000
+      description: "T\u1EA7m +1.0."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 1
+    - upgradeName: Robo Monkey
+      xpUnlockCost: 2000
+      goldBuyCost: 8000
+      description: "2 s\xFAng tay, t\u1ED1c \xD72."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 2
+    - upgradeName: Tech Terror
+      xpUnlockCost: 8000
+      goldBuyCost: 15000
+      description: "+3 damage, Robot Mode \xD73 t\u1ED1c 10s (active)."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3
+    - upgradeName: The Anti-Bloon
+      xpUnlockCost: 20000
+      goldBuyCost: 200000
+      description: "+10 damage, plasma beam di\u1EC7n r\u1ED9ng."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 10
+  - tiers:
+    - upgradeName: Plasma Blasts
+      xpUnlockCost: 0
+      goldBuyCost: 4000
+      description: "\u0110\u1ED5i sang plasma \u2014 pierce +3."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 3
+    - upgradeName: Sun Ray
+      xpUnlockCost: 1000
+      goldBuyCost: 6000
+      description: +2 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Sun Avatar
+      xpUnlockCost: 5000
+      goldBuyCost: 100000
+      description: "3 tia m\u1EB7t tr\u1EDDi xoay 360\xB0 xuy\xEAn m\u1ECDi th\u1EE9
+        trong t\u1EA7m."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: Hyper Tech
+      xpUnlockCost: 15000
+      goldBuyCost: 50000
+      description: +5 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: True Sun God
+      xpUnlockCost: 30000
+      goldBuyCost: 500000
+      description: "Sacrifice 2 T3 tower g\u1EA7n \u2014 mega form."
+      statChanges:
+      - type: 0
+        op: 1
+        value: 3
+  - tiers:
+    - upgradeName: Knockback
+      xpUnlockCost: 0
+      goldBuyCost: 2000
+      description: "M\u1ED7i hit \u0111\u1EA9y Bloon l\xF9i 0.2s."
+      statChanges: []
+    - upgradeName: Ultravision
+      xpUnlockCost: 500
+      goldBuyCost: 1200
+      description: "Nh\xECn th\u1EA5y Camo, t\u1EA7m +1.0."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 1
+    - upgradeName: Dark Knight
+      xpUnlockCost: 2000
+      goldBuyCost: 8000
+      description: "+2 damage, mini dark bomb m\u1ED7i hit."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Dark Champion
+      xpUnlockCost: 8000
+      goldBuyCost: 75000
+      description: "Aura t\u1ED1i t\u0103ng damage all in range passively."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3
+    - upgradeName: Legend of Night
+      xpUnlockCost: 20000
+      goldBuyCost: 200000
+      description: "Mega dark form, h\u1EE7y di\u1EC7t m\u1ECDi lo\u1EA1i Bloon."
+      statChanges:
+      - type: 0
+        op: 1
+        value: 2

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Quincy
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Quincy
+  description: "Cung th\u1EE7 \u2014 b\u1EAFn t\xEAn nhanh, m\u1EA1nh di\u1EC7n r\u1ED9ng."
+  icon: {fileID: 0}
+  prefab: {fileID: 6568544507613447659, guid: d96a64852f63ad44d9373fb0fce42460, type: 3}
+  cost: 540
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 3.5
+  attackSpeed: 2
+  damage: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: ef218cc637c4e8f4d94886dce374fd1f, type: 2}
+  - {fileID: 11400000, guid: 54363e12805f11b48bad769d251c916f, type: 2}
+  - {fileID: 11400000, guid: 7ce7406d7ce12f147af7e6223b0f4b47, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Rapid Shot
+    description: "T\u0103ng t\u1ED1c b\u1EAFn \xD73 trong 5s."
+    skillUnlocked: {fileID: 11400000, guid: ef218cc637c4e8f4d94886dce374fd1f, type: 2}
+  - level: 8
+    abilityName: Storm of Arrows
+    description: "M\u01B0a t\xEAn AOE \u2014 15 dmg l\xEAn m\u1ECDi bloon quanh hero."
+    skillUnlocked: {fileID: 11400000, guid: 54363e12805f11b48bad769d251c916f, type: 2}
+  - level: 12
+    abilityName: Arrow of Light
+    description: "M\u0169i t\xEAn \xE1nh s\xE1ng \u2014 50 dmg AOE r\u1ED9ng."
+    skillUnlocked: {fileID: 11400000, guid: 7ce7406d7ce12f147af7e6223b0f4b47, type: 2}

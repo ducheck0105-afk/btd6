@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Mortar
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: Mortar Monkey
+  description: "S\xFAng c\u1ED1i b\u1EAFn v\xE0o \u0111i\u1EC3m player ch\u1ECDn
+    \u2014 AOE n\u1ED5 l\u1EDBn, range v\xF4 h\u1EA1n."
+  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  prefab: {fileID: 6254793432640993733, guid: 271b9be695456774bbc439cfe09523a9, type: 3}
+  cost: 725
+  terrainType: 0
+  towerType: 11
+  towerCategory: 1
+  attackRange: 999
+  attackSpeed: 0.8
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Bigger Blast
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "B\xE1n k\xEDnh n\u1ED5 +0.5."
+      statChanges:
+      - type: 5
+        op: 0
+        value: 0.5
+    - upgradeName: Increased Weight
+      xpUnlockCost: 200
+      goldBuyCost: 300
+      description: +2 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Heavy Shells
+      xpUnlockCost: 600
+      goldBuyCost: 1000
+      description: +3 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 3
+    - upgradeName: The Big One
+      xpUnlockCost: 3500
+      goldBuyCost: 5000
+      description: "+10 damage, b\xE1n k\xEDnh +1.0, stun."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 10
+      - type: 5
+        op: 0
+        value: 1
+    - upgradeName: The Biggest One
+      xpUnlockCost: 12000
+      goldBuyCost: 45000
+      description: +20 damage, instant kill non-MOAB.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 20
+  - tiers:
+    - upgradeName: Faster Reload
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: "B\u1EAFn nhanh \xD71.3."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.3
+    - upgradeName: Rapid Reload
+      xpUnlockCost: 200
+      goldBuyCost: 500
+      description: "B\u1EAFn nhanh \xD71.5."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.5
+    - upgradeName: Heavy Shells
+      xpUnlockCost: 600
+      goldBuyCost: 1000
+      description: +2 damage.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Artillery Battery
+      xpUnlockCost: 3500
+      goldBuyCost: 7500
+      description: "B\u1EAFn nhanh \xD74."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 4
+    - upgradeName: Pop & Awe
+      xpUnlockCost: 12000
+      goldBuyCost: 22000
+      description: "Active: t\u1EA5t c\u1EA3 mortar b\u1EAFn \xD73."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+  - tiers:
+    - upgradeName: Increased Range
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: Accuracy +.
+      statChanges: []
+    - upgradeName: Burny Stuff
+      xpUnlockCost: 200
+      goldBuyCost: 350
+      description: "V\xF9ng l\u1EEDa 1s sau khi n\u1ED5."
+      statChanges: []
+    - upgradeName: Shattering Shells
+      xpUnlockCost: 600
+      goldBuyCost: 1500
+      description: "Hit MOAB \u2192 gi\u1EA3m 1 tier."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Blooncineration
+      xpUnlockCost: 3500
+      goldBuyCost: 5500
+      description: "+5 damage, l\u1EEDa l\u1EDBn 3s."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: Death From Above
+      xpUnlockCost: 12000
+      goldBuyCost: 35000
+      description: "M\xE1y bay r\u1EA3i bom li\xEAn t\u1EE5c."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5

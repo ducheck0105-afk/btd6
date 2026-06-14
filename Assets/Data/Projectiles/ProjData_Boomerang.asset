@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582e4eac5cec4f84fa8fe358955777a2, type: 3}
+  m_Name: ProjData_Boomerang
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.ProjectileData
+  type: 5
+  prefab: {fileID: 8899601219310258138, guid: 7f366c51a959e5448b864cb74e1b5f37, type: 3}
+  speed: 7
+  hitRadius: 0.15
+  maxLifetime: 3
+  maxPierceCount: 5
+  explosionRadius: 1.5
+  boomerangRange: 3
+  lingerDuration: 2
+  tickInterval: 0.5
+  dealsDamage: 1
+  appliesFreeze: 0
+  freezeDuration: 2
+  appliesSlow: 0
+  slowFactor: 0.5
+  slowDuration: 6

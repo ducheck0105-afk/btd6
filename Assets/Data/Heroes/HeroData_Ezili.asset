@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Ezili
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Ezili
+  description: "Ph\xF9 th\u1EE7y Vodou \u2014 b\u1EAFn ph\xE9p ma \u0111en, AOE s\xE1t
+    th\u01B0\u01A1ng m\u1EA1nh."
+  icon: {fileID: 0}
+  prefab: {fileID: 9134133233116724258, guid: 9e7748a9dde8ffc4687984a76b6fb945, type: 3}
+  cost: 600
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 3.5
+  attackSpeed: 1.2
+  damage: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 1
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: dfc32f109b7fe04488de18c58246493c, type: 2}
+  - {fileID: 11400000, guid: af490f7909dd37e41b9c5f576b6e566d, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Sacrificial Totem
+    description: "Nghi l\u1EC5 AOE \u2014 50 dmg instant l\xEAn t\u1EA5t c\u1EA3
+      bloon trong v\xF9ng."
+    skillUnlocked: {fileID: 11400000, guid: dfc32f109b7fe04488de18c58246493c, type: 2}
+  - level: 8
+    abilityName: MOAB Hex
+    description: "Nguy\u1EC1n r\u1EE7a AOE \u2014 75 dmg t\u1EE9c th\xEC l\xEAn bloon
+      trong v\xF9ng nh\u1ECF (gi\u1EA3 l\u1EADp hex)."
+    skillUnlocked: {fileID: 11400000, guid: af490f7909dd37e41b9c5f576b6e566d, type: 2}

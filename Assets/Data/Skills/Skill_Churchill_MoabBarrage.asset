@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Churchill_MoabBarrage
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: MOAB Barrage
+  description: "Barrage t\u1EADp trung 150 dmg AOE \u2014 nh\u1EAFm ti\xEAu di\u1EC7t
+    MOAB class."
+  icon: {fileID: 0}
+  xpCost: 5000
+  cooldown: 45
+  duration: 0
+  radius: 1
+  damage: 150
+  selfSpeedMult: 1

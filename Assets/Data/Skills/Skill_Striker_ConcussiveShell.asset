@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Striker_ConcussiveShell
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Concussive Shell
+  description: "B\u1EAFn rocket t\u1EADp trung \u2014 30 dmg AOE nh\u1ECF t\u1EA1i
+    \u0111i\u1EC3m ch\u1EC9 \u0111\u1ECBnh."
+  icon: {fileID: 0}
+  xpCost: 5000
+  cooldown: 40
+  duration: 0
+  radius: 2
+  damage: 30
+  selfSpeedMult: 1

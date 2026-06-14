@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_PatFusty
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Pat Fusty
+  description: "Kh\u1EC9 kh\u1ED5ng l\u1ED3 \u2014 \u0111\u1EA5m AOE melee, c\u1ED5
+    v\u0169 \u0111\u1ED3ng \u0111\u1ED9i chi\u1EBFn \u0111\u1EA5u."
+  icon: {fileID: 0}
+  prefab: {fileID: 8962343526315975853, guid: 884ec579158c99c4f9e56f0e1b89095e, type: 3}
+  cost: 0
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 2.5
+  attackSpeed: 1
+  damage: 5
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 8a59befa906594d40895097a91f8d86c, type: 2}
+  - {fileID: 11400000, guid: 7a42ae01ca2cde14293424a1d89bc56a, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Rallying Roar
+    description: "C\u1ED5 v\u0169 \u2014 t\u1EA5t c\u1EA3 tower trong 6u nh\u1EADn
+      \xD71.3 attack speed trong 10s."
+    skillUnlocked: {fileID: 11400000, guid: 8a59befa906594d40895097a91f8d86c, type: 2}
+  - level: 8
+    abilityName: Big Squeeze
+    description: "T\xFAm MOAB AOE nh\u1ECF \u2014 200 dmg instant + stun (gi\u1EA3
+      l\u1EADp b\u1EB1ng slow) 3s trong v\xF9ng 1u."
+    skillUnlocked: {fileID: 11400000, guid: 7a42ae01ca2cde14293424a1d89bc56a, type: 2}

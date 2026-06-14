@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_ObynGreenfoot
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: Obyn Greenfoot
+  description: "Th\u1EA7n r\u1EEBng \u2014 b\u1EAFn gai xuy\xEAn, k\u1EF9 n\u0103ng
+    thi\xEAn nhi\xEAn."
+  icon: {fileID: 0}
+  prefab: {fileID: 6761494607348100959, guid: b725fda944e8a114384afc6c9742f305, type: 3}
+  cost: 0
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 3
+  attackSpeed: 1.5
+  damage: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: fb988bcd51350694191cedfdf3484513, type: 2}
+  - {fileID: 11400000, guid: e0c98016fa1871f4f9c6193b20918cd5, type: 2}
+  - {fileID: 11400000, guid: 22eb390ded78f784ebcf811218fba261, type: 2}
+  levelAbilities:
+  - level: 4
+    abilityName: Wall of Trees
+    description: "D\u1EF1ng h\xE0ng gai \u2014 5 dmg AOE v\xF9ng trung t\xE2m (barrier
+      gi\u1EA3 l\u1EADp)."
+    skillUnlocked: {fileID: 11400000, guid: fb988bcd51350694191cedfdf3484513, type: 2}
+  - level: 8
+    abilityName: Bramble Shield
+    description: "Gai ph\u1EE7 to\xE0n v\xF9ng \u2014 8 dmg l\xEAn t\u1EA5t c\u1EA3
+      bloon trong b\xE1n k\xEDnh l\u1EDBn."
+    skillUnlocked: {fileID: 11400000, guid: e0c98016fa1871f4f9c6193b20918cd5, type: 2}
+  - level: 12
+    abilityName: Nature's Ward
+    description: "(Passive) T\u1EA5t c\u1EA3 tower t\u1EF1 nhi\xEAn trong range +1
+      pierce \u2014 effect code sau."
+    skillUnlocked: {fileID: 11400000, guid: 22eb390ded78f784ebcf811218fba261, type: 2}

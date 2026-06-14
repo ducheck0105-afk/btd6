@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c700003e945a04995f1cbf909b0ac8, type: 3}
+  m_Name: Skill_Corvus_Annihilation
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.SkillData
+  skillName: Annihilation
+  description: "N\u1ED5 tung n\u0103ng l\u01B0\u1EE3ng \u2014 200 dmg AOE di\u1EC7n
+    r\u1ED9ng."
+  icon: {fileID: 0}
+  xpCost: 9000
+  cooldown: 60
+  duration: 0
+  radius: 6
+  damage: 200
+  selfSpeedMult: 1
+  goldGrant: 0
+  towerSpeedMult: 1
+  towerDamageMult: 1
+  grantsCamoReveal: 0
