@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using BloonsTD.Core;
 using BloonsTD.Data;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +13,7 @@ namespace BloonsTD.UI
     /// </summary>
     public class HeroSelectUI : MonoBehaviour
     {
-        [SerializeField] HeroData[]  _heroes;
+        [SerializeField] List<HeroData> _heroes;
         [SerializeField] HeroCardUI  _cardPrefab;
         [SerializeField] Transform   _cardContainer;
         [SerializeField] GameObject  _panel;        // root bật/tắt (mặc định tắt)
@@ -40,6 +41,7 @@ namespace BloonsTD.UI
             foreach (var c in _cards) c.SetSelected(false);
             RefreshConfirm();
             Debug.Log("[HeroSelectUI] Mở màn chọn hero.");
+            OnCardSelected(_heroes[PlayerDataPref.HeroSelected]);
         }
 
         public void Close()
@@ -54,8 +56,11 @@ namespace BloonsTD.UI
                 Debug.LogError("[HeroSelectUI] _cardPrefab/_cardContainer chưa gán — chạy menu setup hoặc gán trong Inspector.");
                 return;
             }
-            if (_heroes == null || _heroes.Length == 0)
+
+            if (_heroes == null || _heroes.Count == 0)
+            {
                 Debug.LogWarning("[HeroSelectUI] _heroes rỗng — kéo các HeroData vào Inspector.");
+            }
 
             foreach (var h in _heroes)
             {
@@ -70,6 +75,7 @@ namespace BloonsTD.UI
 
         void OnCardSelected(HeroData hero)
         {
+            PlayerDataPref.HeroSelected = _heroes.IndexOf(hero);
             _selected = hero;
             foreach (var c in _cards) c.SetSelected(c.Data == hero);
             RefreshConfirm();

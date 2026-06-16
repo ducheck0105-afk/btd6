@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_ObynGreenfoot
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Obyn Greenfoot
+  unitName: ...
   description: "Th\u1EA7n r\u1EEBng \u2014 b\u1EAFn gai xuy\xEAn, k\u1EF9 n\u0103ng
     thi\xEAn nhi\xEAn."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 6761494607348100959, guid: b725fda944e8a114384afc6c9742f305, type: 3}
   cost: 0
   terrainType: 0
@@ -26,6 +26,7 @@ MonoBehaviour:
   defaultTarget: 0
   canSeeCamo: 0
   canPierceLead: 0
+  isMagicProjectile: 0
   upgrades:
   - tiers:
     - upgradeName: 

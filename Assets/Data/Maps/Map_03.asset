@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.MapData
   mapName: Map 3
   mapPrefab: {fileID: 2713766264075518193, guid: 43fdea3ecf00fb546a07df915c673b8c, type: 3}
-  thumbnail: {fileID: 0}
+  thumbnail: {fileID: 21300000, guid: e87f3e77d944a2f4f8b236f5120991d9, type: 3}
   isUnlocked: 1
   easy:
     hpMultiplier: 0.8

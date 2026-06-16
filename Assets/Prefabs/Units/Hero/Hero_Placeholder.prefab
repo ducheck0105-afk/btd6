@@ -87,11 +87,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Units.Hero.HeroController
   projectileData: {fileID: 11400000, guid: 43503f60de045294a90a6734099e6a8f, type: 2}
   firePoint: {fileID: 7202261606278970664}
+  _rotatingPart: {fileID: 0}
   _attackType: 0
   _buffDamageMult: 1.2
   _buffRangeMult: 1.1
   _buffSpeedMult: 1.2
   _buffDuration: 2
+  _freezeDuration: 2
+  _freezeDealsDamage: 0
+  _shotCount: 8
   _previewData: {fileID: 11400000, guid: c47e83ae4013adb4db34089666e1f398, type: 2}
 --- !u!114 &4837134917003419933
 MonoBehaviour:
@@ -192,7 +196,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.3, y: 0.5}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

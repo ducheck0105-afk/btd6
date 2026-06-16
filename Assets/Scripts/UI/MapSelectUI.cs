@@ -9,31 +9,31 @@ namespace BloonsTD.UI
 {
     public class MapSelectUI : MonoBehaviour
     {
-        [Header("Map list")]
-        [SerializeField] MapData[]       _maps;
-        [SerializeField] MapCardUI       _cardPrefab;
-        [SerializeField] Transform       _cardContainer;
+        [Header("Map list")] [SerializeField] MapData[] _maps;
+        [SerializeField] MapCardUI _cardPrefab;
+        [SerializeField] Transform _cardContainer;
 
-        [Header("Detail panel")]
-        [SerializeField] Image           _detailThumbnail;
+        [Header("Detail panel")] [SerializeField]
+        Image _detailThumbnail;
+
         [SerializeField] TextMeshProUGUI _detailName;
         [SerializeField] TextMeshProUGUI _detailRoundCount;
-        [SerializeField] GameObject      _detailPanel;
+        [SerializeField] GameObject _detailPanel;
 
-        [Header("Difficulty Buttons")]
-        [SerializeField] Button          _btnEasy;
-        [SerializeField] Button          _btnMedium;
-        [SerializeField] Button          _btnHard;
-        [SerializeField] Button          _btnImpoppable; // optional
+        [Header("Difficulty Buttons")] [SerializeField]
+        Button _btnEasy;
 
-        [Header("Play")]
-        [SerializeField] Button          _playBtn;
-        [SerializeField] string          _gameplayScene = "Gameplay";
-        [SerializeField] HeroSelectUI    _heroSelect;   // nếu gán → Play mở chọn hero trước (J0-1)
+        [SerializeField] Button _btnMedium;
+        [SerializeField] Button _btnHard;
+        [SerializeField] Button _btnImpoppable; // optional
 
-        MapData              _selected;
-        Difficulty           _difficulty = Difficulty.Medium;
-        List<MapCardUI>      _cards      = new();
+        [Header("Play")] [SerializeField] Button _playBtn;
+        [SerializeField] string _gameplayScene = "Gameplay";
+        [SerializeField] HeroSelectUI _heroSelect; // nếu gán → Play mở chọn hero trước (J0-1)
+
+        MapData _selected;
+        Difficulty _difficulty = Difficulty.Easy;
+        List<MapCardUI> _cards = new();
 
         void Start()
         {
@@ -43,6 +43,7 @@ namespace BloonsTD.UI
             _playBtn.interactable = false;
             _detailPanel?.SetActive(false);
             HighlightDifficulty(_difficulty);
+            OnCardSelected(_maps[0]);
         }
 
         void BuildCards()
@@ -57,9 +58,9 @@ namespace BloonsTD.UI
 
         void SetupDifficultyButtons()
         {
-            _btnEasy.onClick.AddListener(()   => SelectDifficulty(Difficulty.Easy));
+            _btnEasy.onClick.AddListener(() => SelectDifficulty(Difficulty.Easy));
             _btnMedium.onClick.AddListener(() => SelectDifficulty(Difficulty.Medium));
-            _btnHard.onClick.AddListener(()   => SelectDifficulty(Difficulty.Hard));
+            _btnHard.onClick.AddListener(() => SelectDifficulty(Difficulty.Hard));
             if (_btnImpoppable != null)
                 _btnImpoppable.onClick.AddListener(() => SelectDifficulty(Difficulty.Impoppable));
         }
@@ -86,9 +87,9 @@ namespace BloonsTD.UI
 
         void HighlightDifficulty(Difficulty d)
         {
-            _btnEasy.interactable   = d != Difficulty.Easy;
+            _btnEasy.interactable = d != Difficulty.Easy;
             _btnMedium.interactable = d != Difficulty.Medium;
-            _btnHard.interactable   = d != Difficulty.Hard;
+            _btnHard.interactable = d != Difficulty.Hard;
             if (_btnImpoppable != null)
                 _btnImpoppable.interactable = d != Difficulty.Impoppable;
         }
@@ -112,6 +113,7 @@ namespace BloonsTD.UI
                 _heroSelect.Open();
                 return;
             }
+
             SceneLoader.instance.Load(_gameplayScene);
         }
     }

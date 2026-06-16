@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Corvus
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Corvus
+  unitName: ...
   description: "Ph\xE1p s\u01B0 b\xF3ng t\u1ED1i \u2014 \u0111i\u1EC1u khi\u1EC3n
     qu\u1EA1 bay b\u1EAFn ph\xE9p, AOE n\u0103ng l\u01B0\u1EE3ng m\u1EA1nh."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 8707710322473240753, guid: 1fe6ab9dab8938448ab5ebd368bc0dac, type: 3}
   cost: 850
   terrainType: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Sauda
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Sauda
+  unitName: ...
   description: "Ki\u1EBFm s\u0129 \u2014 ch\xE9m AOE c\u1EADn chi\u1EBFn t\u1ED1c
     \u0111\u1ED9 cao."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 8253259103137301159, guid: e1b8a2240f084034cbce7ab39aa0fd01, type: 3}
   cost: 600
   terrainType: 0

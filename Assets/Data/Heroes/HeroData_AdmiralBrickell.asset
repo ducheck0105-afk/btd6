@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_AdmiralBrickell
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Admiral Brickell
+  unitName: ...
   description: "\u0110\xF4 \u0111\u1ED1c \u2014 b\u1EAFn s\xFAng l\u1EE5c nhanh.
     CH\u1EC8 \u0111\u1EB7t \u0111\u01B0\u1EE3c tr\xEAn N\u01AF\u1EDAC."
-  icon: {fileID: 21300000, guid: 1700476551581db4794611e70447f2bf, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 6748759699315388, guid: b97aab91342a4f64a913b56cb75caa48, type: 3}
   cost: 750
   terrainType: 1

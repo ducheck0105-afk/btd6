@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 485a212e5b0c5964496f7db1e172810b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8083752846688857330
+    second: Dat nhan vat_0
+  - first:
+      213: -1058147551204375521
+    second: Dat nhan vat_1
+  - first:
+      213: -2194562907285744817
+    second: Dat nhan vat_2
+  - first:
+      213: 4603949230245700435
+    second: Dat nhan vat_3
+  - first:
+      213: 5907600647305513620
+    second: Dat nhan vat_4
+  - first:
+      213: 8894469232292694897
+    second: Dat nhan vat_5
+  - first:
+      213: -2910999775255461242
+    second: Dat nhan vat_6
+  - first:
+      213: -7040524350238840031
+    second: Dat nhan vat_7
+  - first:
+      213: 8821810883633188099
+    second: Dat nhan vat_8
+  - first:
+      213: -8167635249594693870
+    second: Dat nhan vat_9
+  - first:
+      213: 7467305668670534496
+    second: Dat nhan vat_10
+  - first:
+      213: -4445395973286947418
+    second: Dat nhan vat_11
+  - first:
+      213: 1068808484757986783
+    second: Dat nhan vat_12
+  - first:
+      213: -1737752240166465337
+    second: Dat nhan vat_13
+  - first:
+      213: 5338661082674650963
+    second: Dat nhan vat_14
+  - first:
+      213: 7289371029264154840
+    second: Dat nhan vat_15
+  - first:
+      213: 4541205795902698278
+    second: Dat nhan vat_16
+  - first:
+      213: 6759814654159639359
+    second: Dat nhan vat_17
+  - first:
+      213: -2973823363231445984
+    second: Dat nhan vat_18
+  - first:
+      213: 1227621872960361824
+    second: Dat nhan vat_19
+  - first:
+      213: 3474459690848195503
+    second: Dat nhan vat_20
+  - first:
+      213: 7157176093630829618
+    second: Dat nhan vat_21
+  - first:
+      213: 2175902834917362345
+    second: Dat nhan vat_22
+  - first:
+      213: -540425400721340169
+    second: Dat nhan vat_23
+  - first:
+      213: -3492136290403527702
+    second: Dat nhan vat_24
+  - first:
+      213: -883135993267438893
+    second: Dat nhan vat_25
+  - first:
+      213: 4552984634581398311
+    second: Dat nhan vat_26
+  - first:
+      213: -4056006445352039236
+    second: Dat nhan vat_27
+  - first:
+      213: 5042516637607783816
+    second: Dat nhan vat_28
+  - first:
+      213: -31704320557826876
+    second: Dat nhan vat_29
+  - first:
+      213: -4633210141427721236
+    second: Dat nhan vat_30
+  - first:
+      213: 7805948615584578411
+    second: Dat nhan vat_31
+  - first:
+      213: -1187738498471705245
+    second: Dat nhan vat_32
+  - first:
+      213: 1632604932707209157
+    second: Dat nhan vat_33
+  - first:
+      213: -4483980444320542726
+    second: Dat nhan vat_34
+  - first:
+      213: 7810765219365223823
+    second: Dat nhan vat_35
+  - first:
+      213: 6540072146505975131
+    second: Dat nhan vat_36
+  - first:
+      213: 6481251343597781058
+    second: Dat nhan vat_37
+  - first:
+      213: -960119756830997853
+    second: Dat nhan vat_38
+  - first:
+      213: 2692292483884354749
+    second: Dat nhan vat_39
+  - first:
+      213: 5434036034263349554
+    second: Dat nhan vat_40
+  - first:
+      213: -6164076862629883312
+    second: Dat nhan vat_41
+  - first:
+      213: -6264788312408363714
+    second: Dat nhan vat_42
+  - first:
+      213: 5993749739252042155
+    second: Dat nhan vat_43
+  - first:
+      213: -7353202682429219277
+    second: Dat nhan vat_44
+  - first:
+      213: -1318228761835021760
+    second: Dat nhan vat_45
+  - first:
+      213: 5937266840237306740
+    second: Dat nhan vat_46
+  - first:
+      213: 4795627763353387992
+    second: Dat nhan vat_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 51
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dat nhan vat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1450
+        width: 444
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03de019d9db0df80800000000000000
+      internalID: -8083752846688857330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_1
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1450
+        width: 226
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1483829864b051f0800000000000000
+      internalID: -1058147551204375521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_2
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1450
+        width: 225
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f431cf1c9a85b81e0800000000000000
+      internalID: -2194562907285744817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_3
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1450
+        width: 222
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3536ab0ae6384ef30800000000000000
+      internalID: 4603949230245700435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_4
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1450
+        width: 225
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a43892d730cf150800000000000000
+      internalID: 5907600647305513620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_5
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1450
+        width: 219
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b827054a08f6b70800000000000000
+      internalID: 8894469232292694897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_6
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 1450
+        width: 223
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68208a6a02d0a97d0800000000000000
+      internalID: -2910999775255461242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_7
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1450
+        width: 217
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ba68fd7680b4e90800000000000000
+      internalID: -7040524350238840031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_8
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1450
+        width: 224
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d81aa324e5d6a70800000000000000
+      internalID: 8821810883633188099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_9
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1450
+        width: 223
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21703f4b30bb6ae80800000000000000
+      internalID: -8167635249594693870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_10
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1213
+        width: 225
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0633e5231f231a760800000000000000
+      internalID: 7467305668670534496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_11
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1213
+        width: 222
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5974e3ae7ce42c0800000000000000
+      internalID: -4445395973286947418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_12
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1213
+        width: 224
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd5ce277ab25de00800000000000000
+      internalID: 1068808484757986783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_13
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1213
+        width: 223
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c01d396b8342e7e0800000000000000
+      internalID: -1737752240166465337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 978
+        width: 212
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f560128fbb61a40800000000000000
+      internalID: 5338661082674650963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_15
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 978
+        width: 221
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d04053945c092560800000000000000
+      internalID: 7289371029264154840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 978
+        width: 220
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623b9bc6c9a950f30800000000000000
+      internalID: 4541205795902698278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_17
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 978
+        width: 225
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f335aa8ec9fafcd50800000000000000
+      internalID: 6759814654159639359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_18
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 978
+        width: 222
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c05d9386bdab6d0800000000000000
+      internalID: -2973823363231445984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_19
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 978
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0655d48d693690110800000000000000
+      internalID: 1227621872960361824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_20
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 978
+        width: 219
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa39b6b2ea2c73030800000000000000
+      internalID: 3474459690848195503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_21
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 978
+        width: 223
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23498cf9cb5635360800000000000000
+      internalID: 7157176093630829618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_22
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 978
+        width: 217
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aac305991c523e10800000000000000
+      internalID: 2175902834917362345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_23
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 978
+        width: 223
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8086a16f50088f0800000000000000
+      internalID: -540425400721340169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 212
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae35f37cb80798fc0800000000000000
+      internalID: -3492136290403527702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_25
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 747
+        width: 224
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dabee04e787eb3f0800000000000000
+      internalID: -883135993267438893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_26
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 747
+        width: 219
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723390407637f2f30800000000000000
+      internalID: 4552984634581398311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc81aa0ab26b7c0800000000000000
+      internalID: -4056006445352039236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_28
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 514
+        width: 220
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88deb9e5a2e9af540800000000000000
+      internalID: 5042516637607783816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_29
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 514
+        width: 225
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc3e43a61d5f8ff0800000000000000
+      internalID: -31704320557826876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_30
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 514
+        width: 224
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb96769ce783bfb0800000000000000
+      internalID: -4633210141427721236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_31
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 514
+        width: 219
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bfede78ec445c60800000000000000
+      internalID: 7805948615584578411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_32
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 514
+        width: 217
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365c988e02e448fe0800000000000000
+      internalID: -1187738498471705245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 212
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf4090598d28a610800000000000000
+      internalID: 1632604932707209157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_34
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 280
+        width: 225
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affc9740b83b5c1c0800000000000000
+      internalID: -4483980444320542726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_35
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 280
+        width: 219
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d7d347599656c60800000000000000
+      internalID: 7810765219365223823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 211
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b554ae967f003ca50800000000000000
+      internalID: 6540072146505975131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_37
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 41
+        width: 222
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2404b2302c702f950800000000000000
+      internalID: 6481251343597781058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_38
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 41
+        width: 219
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a201480b28fca2f0800000000000000
+      internalID: -960119756830997853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_39
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 41
+        width: 226
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc816defb1fc5520800000000000000
+      internalID: 2692292483884354749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_40
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 41
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23970fe7bf2996b40800000000000000
+      internalID: 5434036034263349554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_41
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 41
+        width: 222
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ddba80ccc47aa0800000000000000
+      internalID: -6164076862629883312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_42
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 41
+        width: 225
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d61edd8300f09a0800000000000000
+      internalID: -6264788312408363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_43
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 41
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba945b0b1a31e2350800000000000000
+      internalID: 5993749739252042155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_44
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 41
+        width: 219
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e5b588e1d24f990800000000000000
+      internalID: -7353202682429219277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_45
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 41
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ade16ece5b4bde0800000000000000
+      internalID: -1318228761835021760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_46
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 41
+        width: 218
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473fc05fbb8656250800000000000000
+      internalID: 5937266840237306740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dat nhan vat_47
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 41
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d30eadda0e7d8240800000000000000
+      internalID: 4795627763353387992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dat nhan vat_0: -8083752846688857330
+      Dat nhan vat_1: -1058147551204375521
+      Dat nhan vat_10: 7467305668670534496
+      Dat nhan vat_11: -4445395973286947418
+      Dat nhan vat_12: 1068808484757986783
+      Dat nhan vat_13: -1737752240166465337
+      Dat nhan vat_14: 5338661082674650963
+      Dat nhan vat_15: 7289371029264154840
+      Dat nhan vat_16: 4541205795902698278
+      Dat nhan vat_17: 6759814654159639359
+      Dat nhan vat_18: -2973823363231445984
+      Dat nhan vat_19: 1227621872960361824
+      Dat nhan vat_2: -2194562907285744817
+      Dat nhan vat_20: 3474459690848195503
+      Dat nhan vat_21: 7157176093630829618
+      Dat nhan vat_22: 2175902834917362345
+      Dat nhan vat_23: -540425400721340169
+      Dat nhan vat_24: -3492136290403527702
+      Dat nhan vat_25: -883135993267438893
+      Dat nhan vat_26: 4552984634581398311
+      Dat nhan vat_27: -4056006445352039236
+      Dat nhan vat_28: 5042516637607783816
+      Dat nhan vat_29: -31704320557826876
+      Dat nhan vat_3: 4603949230245700435
+      Dat nhan vat_30: -4633210141427721236
+      Dat nhan vat_31: 7805948615584578411
+      Dat nhan vat_32: -1187738498471705245
+      Dat nhan vat_33: 1632604932707209157
+      Dat nhan vat_34: -4483980444320542726
+      Dat nhan vat_35: 7810765219365223823
+      Dat nhan vat_36: 6540072146505975131
+      Dat nhan vat_37: 6481251343597781058
+      Dat nhan vat_38: -960119756830997853
+      Dat nhan vat_39: 2692292483884354749
+      Dat nhan vat_4: 5907600647305513620
+      Dat nhan vat_40: 5434036034263349554
+      Dat nhan vat_41: -6164076862629883312
+      Dat nhan vat_42: -6264788312408363714
+      Dat nhan vat_43: 5993749739252042155
+      Dat nhan vat_44: -7353202682429219277
+      Dat nhan vat_45: -1318228761835021760
+      Dat nhan vat_46: 5937266840237306740
+      Dat nhan vat_47: 4795627763353387992
+      Dat nhan vat_5: 8894469232292694897
+      Dat nhan vat_6: -2910999775255461242
+      Dat nhan vat_7: -7040524350238840031
+      Dat nhan vat_8: 8821810883633188099
+      Dat nhan vat_9: -8167635249594693870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

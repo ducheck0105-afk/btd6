@@ -29,7 +29,11 @@ namespace BloonsTD.UI
             if (_nameText != null) _nameText.text = data.unitName;
             if (_costText != null) _costText.text = $"{data.cost}g";
             if (_icon != null && data.icon != null) _icon.sprite = data.icon;
-            _button?.onClick.AddListener(() => _onSelect?.Invoke(_data));
+            _button?.onClick.AddListener(() =>
+            {
+                if(_nameText.text == "...") return;
+                _onSelect?.Invoke(_data);
+            });
 
             SetSelected(false);
         }

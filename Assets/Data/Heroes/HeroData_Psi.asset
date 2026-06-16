@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Psi
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Psi
+  unitName: ...
   description: "Ph\xE1p s\u01B0 t\xE2m linh \u2014 \u0111\xF3ng b\u0103ng + s\xE1t
     th\u01B0\u01A1ng ph\xE9p di\u1EC7n r\u1ED9ng."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 2510503566538249004, guid: e077167bb1b2f844caf5d62d779e6491, type: 3}
   cost: 800
   terrainType: 0

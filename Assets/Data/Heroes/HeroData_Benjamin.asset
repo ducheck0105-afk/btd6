@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Benjamin
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Benjamin
+  unitName: ...
   description: "Hacker kinh t\u1EBF \u2014 kh\xF4ng chi\u1EBFn \u0111\u1EA5u nh\u01B0ng
     sinh gold v\xE0 hack tower."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 815413006350965980, guid: a0a56d63be708594097c3d37af66440a, type: 3}
   cost: 1200
   terrainType: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Geraldo
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Geraldo
+  unitName: ...
   description: "Th\u01B0\u01A1ng nh\xE2n \u2014 b\u1EAFn sling, m\u1EDF c\u1EEDa
     h\xE0ng buff tower."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 2400410396873024059, guid: 4ede585cc18f6a64abb9f34048576837, type: 3}
   cost: 750
   terrainType: 0

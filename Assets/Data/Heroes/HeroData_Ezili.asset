@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Ezili
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Ezili
+  unitName: ...
   description: "Ph\xF9 th\u1EE7y Vodou \u2014 b\u1EAFn ph\xE9p ma \u0111en, AOE s\xE1t
     th\u01B0\u01A1ng m\u1EA1nh."
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 9134133233116724258, guid: 9e7748a9dde8ffc4687984a76b6fb945, type: 3}
   cost: 600
   terrainType: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
   m_Name: HeroData_Adora
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
-  unitName: Adora
+  unitName: ...
   description: "N\u1EEF t\u01B0 t\u1EBF \xE1nh s\xE1ng \u2014 tia m\u1EB7t tr\u1EDDi
     xuy\xEAn, s\xE1t th\u01B0\u01A1ng cao."
-  icon: {fileID: 21300000, guid: 60bd6e7267a3254489b5e2a9846c7d53, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 8145774600949627880, guid: fe37d6cbe4939e649808ff61754c8cfc, type: 3}
   cost: 50
   terrainType: 0
