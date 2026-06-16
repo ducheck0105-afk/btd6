@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Druid
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Druid
+  unitName: ...
   description: "S\xE9t lan sang 3 enemy li\u1EC1n k\u1EC1 \u2014 isMagic=false n\xEAn
     hit \u0111\u01B0\u1EE3c Purple Bloon."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 1661470779187023091, guid: 712f2f586b964574bab51479f1907be6, type: 3}
   cost: 425
   terrainType: 0

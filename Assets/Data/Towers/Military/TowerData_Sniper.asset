@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Sniper
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Sniper Monkey
+  unitName: ...
   description: "B\u1EAFn ph\xE1t \u0111\u1EA1n m\u1EA1nh xuy\xEAn to\xE0n map \u2014
     target enemy xa nh\u1EA5t t\u1EEB \u0111\xEDch."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 5173163470029218471, guid: 56efae42fcf29304ea6651c0897fde74, type: 3}
   cost: 350
   terrainType: 0

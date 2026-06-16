@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
-  m_Name: TowerData_SpikeFactory
+  m_Name: "TowerData_SpikeFactory ( B\xE0 ngo\u1EA1i )"
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Spike Factory
+  unitName: ...
   description: "\u0110\u1EB7t spike pile tr\xEAn \u0111\u01B0\u1EDDng m\u1ED7i gi\xE2y
     \u2014 enemy \u0111i qua b\u1ECB damage."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 7359406952389492395, guid: 4a99ef8d946759a489a19126badac5d3, type: 3}
-  cost: 1000
+  cost: 200
   terrainType: 0
   towerType: 19
   towerCategory: 3
   attackRange: 3
-  attackSpeed: 1
-  damage: 1
+  attackSpeed: 5
+  damage: 2
   pierce: 1
   defaultTarget: 0
   canSeeCamo: 0

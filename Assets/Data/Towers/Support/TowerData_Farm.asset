@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Farm
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Banana Farm
+  unitName: ...
   description: "Thu nh\u1EADp th\u1EE5 \u0111\u1ED9ng $80/round. Upgrade \u0111\u1EC3
     t\u0103ng income ho\u1EB7c \u0111\u1ED5i sang ch\u1EBF \u0111\u1ED9 bank."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 5611002897506225924, guid: 52b8a3751d1e79946a65c2a013dca59d, type: 3}
   cost: 1250
   terrainType: 0

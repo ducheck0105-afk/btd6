@@ -12,7 +12,8 @@ namespace BloonsTD.UI
     {
         [SerializeField] Image           _icon;
         [SerializeField] TextMeshProUGUI _costText;
-
+        [SerializeField] private Sprite heroBackground;
+        [SerializeField] private Sprite towerBackground;
         public int Cost { get; private set; }
 
         HeroData    _heroData;
@@ -30,7 +31,8 @@ namespace BloonsTD.UI
             _placer   = placer;
             Cost      = data.cost;
             SetupCommon(data.unitName, data.icon, data.cost);
-            ApplyBackground(HeroColor);
+            GetComponent<Image>().sprite = heroBackground;
+            // ApplyBackground(HeroColor);
         }
 
         public void Setup(TowerData data, UnitPlacer placer)
@@ -41,7 +43,8 @@ namespace BloonsTD.UI
             _placer    = placer;
             Cost       = data.cost;
             SetupCommon(data.unitName, data.icon, data.cost);
-            ApplyBackground(CategoryColor(data.towerCategory));
+            GetComponent<Image>().sprite = towerBackground;
+            // ApplyBackground(CategoryColor(data.towerCategory));
         }
 
         void SetupCommon(string unitName, Sprite icon, int cost)
@@ -77,9 +80,8 @@ namespace BloonsTD.UI
 
         void ApplyBackground(Color color)
         {
-            var bg = GetComponent<Image>(); // Image gốc của slot = nền (cùng GameObject với script)
-
-            // Nút dùng ColorTint → phải set qua ColorBlock, nếu không Button sẽ ghi đè về normalColor (trắng).
+            var bg = GetComponent<Image>(); 
+            
             var btn = GetComponent<Button>();
             if (btn != null && btn.transition == Selectable.Transition.ColorTint)
             {
@@ -91,10 +93,10 @@ namespace BloonsTD.UI
                 cb.disabledColor    = Color.Lerp(color, Color.gray,  0.5f);
                 cb.colorMultiplier  = 1f;
                 btn.colors = cb;
-                if (btn.targetGraphic is Image tg) tg.color = color; // hiển thị ngay
+                if (btn.targetGraphic is Image tg) tg.color = color;    
                 return;
             }
-
+            
             if (bg != null) bg.color = color;
             else Debug.LogWarning("[UnitShopSlot] Không tìm thấy Image nền trên slot.");
         }
@@ -108,11 +110,13 @@ namespace BloonsTD.UI
             if (_heroData != null)
             {
                 Debug.Log($"[UnitShopSlot] Drag hero: {_heroData.unitName}");
+                if(_heroData.unitName == "...") return;
                 _placer.BeginPlaceHero(_heroData);
             }
             else if (_towerData != null)
             {
                 Debug.Log($"[UnitShopSlot] Drag tower: {_towerData.unitName}");
+                if(_towerData.unitName == "...") return;
                 _placer.BeginPlaceTower(_towerData);
             }
         }
@@ -120,6 +124,16 @@ namespace BloonsTD.UI
         // ── Drag handlers: block scroll khi đang placing, forward khi không ──
         public void OnBeginDrag(PointerEventData eventData)
         {
+            if (_heroData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag hero: {_heroData.unitName}");
+                if(_heroData.unitName == "...") return;
+            }
+            else if (_towerData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag tower: {_towerData.unitName}");
+                if(_towerData.unitName == "...") return;
+            }
             if (_placer != null && _placer.IsPlacing) return;
             if (_scrollRect != null)
                 ExecuteEvents.Execute(_scrollRect.gameObject, eventData, ExecuteEvents.beginDragHandler);
@@ -127,6 +141,16 @@ namespace BloonsTD.UI
 
         public void OnDrag(PointerEventData eventData)
         {
+            if (_heroData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag hero: {_heroData.unitName}");
+                if(_heroData.unitName == "...") return;
+            }
+            else if (_towerData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag tower: {_towerData.unitName}");
+                if(_towerData.unitName == "...") return;
+            }
             if (_placer != null && _placer.IsPlacing) return;
             if (_scrollRect != null)
                 ExecuteEvents.Execute(_scrollRect.gameObject, eventData, ExecuteEvents.dragHandler);
@@ -134,6 +158,16 @@ namespace BloonsTD.UI
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            if (_heroData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag hero: {_heroData.unitName}");
+                if(_heroData.unitName == "...") return;
+            }
+            else if (_towerData != null)
+            {
+                Debug.Log($"[UnitShopSlot] Drag tower: {_towerData.unitName}");
+                if(_towerData.unitName == "...") return;
+            }
             if (_placer != null && _placer.IsPlacing) return;
             if (_scrollRect != null)
                 ExecuteEvents.Execute(_scrollRect.gameObject, eventData, ExecuteEvents.endDragHandler);

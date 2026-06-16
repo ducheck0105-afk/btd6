@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Sub
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Monkey Sub
+  unitName: ...
   description: "T\xE0u ng\u1EA7m \u0111\u1EB7t d\u01B0\u1EDBi n\u01B0\u1EDBc \u2014
     b\u1EAFn ng\u01B0 l\xF4i nhanh."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 2538151795418960276, guid: 97df7ef0ce5f87841ab1c370c4a6d2dc, type: 3}
   cost: 325
   terrainType: 1

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Dart
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Dart Monkey
+  unitName: ...
   description: "N\xE9m phi ti\xEAu v\xE0o Bloons."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 7978742469212339401, guid: bbb58d594c653664da73bd3a457afa32, type: 3}
   cost: 200
   terrainType: 0
@@ -27,6 +27,7 @@ MonoBehaviour:
   defaultTarget: 0
   canSeeCamo: 0
   canPierceLead: 0
+  isMagicProjectile: 0
   upgrades:
   - tiers:
     - upgradeName: Longer Range

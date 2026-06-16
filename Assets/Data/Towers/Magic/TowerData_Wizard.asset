@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Wizard
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Wizard Monkey
+  unitName: ...
   description: "B\u1EAFn tia ph\xE9p thu\u1EADt \u2014 xuy\xEAn Purple Bloon \u1EDF
     tier cao. C\xF3 th\u1EC3 tri\u1EC7u h\u1ED3i Fireball v\xE0 zombie."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 6755284185677216347, guid: 5cc38cae310cef54ea877f44f34941b0, type: 3}
   cost: 400
   terrainType: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   description: "Cung th\u1EE7 \u2014 b\u1EAFn t\xEAn nhanh, m\u1EA1nh di\u1EC7n r\u1ED9ng."
   icon: {fileID: 21300000, guid: 5d7067f74d8e6ae46b794e7dcbb581a9, type: 3}
   prefab: {fileID: 6568544507613447659, guid: d96a64852f63ad44d9373fb0fce42460, type: 3}
-  cost: 540
+  cost: 200
   terrainType: 0
   maxLevel: 20
   attackRange: 3.5

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Buccaneer
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Monkey Buccaneer
+  unitName: ...
   description: "T\xE0u chi\u1EBFn \u0111\u1EB7t d\u01B0\u1EDBi n\u01B0\u1EDBc \u2014
     b\u1EAFn ph\xE1o xuy\xEAn nhi\u1EC1u Bloon."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 7695208836788704750, guid: 55b73c01961941d448ddbf1488a21beb, type: 3}
   cost: 500
   terrainType: 1

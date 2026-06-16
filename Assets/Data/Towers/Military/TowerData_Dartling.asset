@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Dartling
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Dartling Gunner
+  unitName: ...
   description: "S\xFAng gatling xoay theo chu\u1ED9t player \u2014 b\u1EAFn li\xEAn
     t\u1EE5c t\u1ED1c \u0111\u1ED9 cao."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 270753571316182852, guid: 6d9a91669872ceb44b754927d333d1da, type: 3}
   cost: 1500
   terrainType: 0

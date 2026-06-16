@@ -35,7 +35,11 @@ namespace BloonsTD.Combat
 
         void OnTriggerEnter2D(Collider2D col)
         {
-            if (!col.TryGetComponent<EnemyController>(out var ec) || ec.IsDead) return;
+            if (!col.TryGetComponent<EnemyController>(out var ec) || ec.IsDead)
+            {
+                Debug.Log("0231940329");
+                return;
+            }
             DamageSystem.Apply(ec, _damage, isExplosion: false, isMagic: false, attacker: _attackerType);
             _pierceLeft--;
             Debug.Log($"[SpikePile] Trúng {ec.Data.enemyName} — pierce còn {_pierceLeft}");

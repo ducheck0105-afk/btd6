@@ -11,14 +11,6 @@ namespace BloonsTD.UI
         [SerializeField] Button _resumeBtn;
         [SerializeField] Button _homeBtn;
 
-        void Awake()
-        {
-            _resumeBtn?.onClick.AddListener(Close);
-            _homeBtn?.onClick.AddListener(OnBackToHome);
-            gameObject.SetActive(false);
-            Debug.Log("[PausePanel] Awake — panel ẩn mặc định.");
-        }
-
         public void Open()
         {
             Time.timeScale = 0f;
@@ -33,7 +25,7 @@ namespace BloonsTD.UI
             Debug.Log("[PausePanel] Đóng — game resumed.");
         }
 
-        void OnBackToHome()
+        public void OnBackToHome()
         {
             Time.timeScale = 1f;
             Debug.Log("[PausePanel] Back to Home → load MainMenu.");

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
   m_Name: TowerData_Ace
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
-  unitName: Monkey Ace
+  unitName: ...
   description: "M\xE1y bay bay v\xF2ng quanh, b\u1EAFn 8 h\u01B0\u1EDBng \u2014 ph\u1EE7
     s\xF3ng r\u1ED9ng."
-  icon: {fileID: 21300000, guid: 7bad702a83c4d4cc6a56fdf0f1e8a7f9, type: 3}
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
   prefab: {fileID: 2876375254755455966, guid: d7f6a57ffd7ff90419923868a5a4a933, type: 3}
   cost: 800
   terrainType: 0

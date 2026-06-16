@@ -17,7 +17,7 @@ MonoBehaviour:
     di\u1EC7n r\u1ED9ng."
   icon: {fileID: 21300000, guid: fc20423bc9ea7cf45adc63c3ab7d8971, type: 3}
   prefab: {fileID: 9118040778010919151, guid: e3dda9e6bbcc7c5478e808a90c045efa, type: 3}
-  cost: 735
+  cost: 200
   terrainType: 0
   maxLevel: 20
   attackRange: 3.5

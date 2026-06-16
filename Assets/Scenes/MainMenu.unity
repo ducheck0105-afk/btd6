@@ -1052,7 +1052,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b1b2177a67d0aee468e24ae47035631b, type: 2}
   - {fileID: 11400000, guid: 0bee059fa62af6545a31975c7efa25ed, type: 2}
   - {fileID: 11400000, guid: 97190f35422151545865652120e524e7, type: 2}
-  - {fileID: 11400000, guid: b1b2177a67d0aee468e24ae47035631b, type: 2}
   _cardPrefab: {fileID: 464177933616404150, guid: 938b7baddb155f842be50497b6882a4a, type: 3}
   _cardContainer: {fileID: 894454615}
   _detailThumbnail: {fileID: 47525154}
@@ -1961,7 +1960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
   m_Content: {fileID: 364959415}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1

@@ -77,7 +77,7 @@ namespace BloonsTD.UI
             gameObject.SetActive(false);
             Debug.Log("[UpgradePanel] Awake — panel ẩn mặc định.");
         }
-
+        
         void Update()
         {
             // Hero skill cooldown đếm ngược realtime khi panel mở (J0-5). Tower (_skillUser null) bỏ qua.
