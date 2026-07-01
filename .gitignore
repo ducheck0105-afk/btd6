@@ -54,3 +54,10 @@ crashlytics-build.properties
 
 # macOS
 .DS_Store
+
+# Claude Code — commit CLAUDE.md, memory/, wiki/; ignore only per-user local config
+.claude/settings.local.json
+.claude/**/*.local.json
+Docs
+.claude
+PLAN.md
