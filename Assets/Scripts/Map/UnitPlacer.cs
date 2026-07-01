@@ -156,6 +156,7 @@ namespace BloonsTD.Map
                 Debug.Log($"[UnitPlacer] Đặt tower '{_pendingTower.unitName}' tại {placed}.");
             }
 
+            AudioManager.instance.PlayPlaceUnit(); // đặt thành công → Dat nhan vat.mp3
             CancelPlacement();
         }
 

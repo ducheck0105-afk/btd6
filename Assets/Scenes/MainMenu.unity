@@ -802,22 +802,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.UI.HeroSelectUI
   _heroes:
-  - {fileID: 11400000, guid: 9c9242b7d0b23da4f98bcfea78cebed0, type: 2}
-  - {fileID: 11400000, guid: fe214e8945e6a414ca6216ff3ae3163a, type: 2}
-  - {fileID: 11400000, guid: ed996714c43e02b49b96e49b5f6f66e1, type: 2}
-  - {fileID: 11400000, guid: 61bc66f73aeb2ef43b34344e7854590a, type: 2}
-  - {fileID: 11400000, guid: 45260e2777fd5ff4191529d531153238, type: 2}
   - {fileID: 11400000, guid: 574dcaa464b3710418c04739facc4524, type: 2}
-  - {fileID: 11400000, guid: 42d4c9e2a1ab1944590f8240410baee9, type: 2}
-  - {fileID: 11400000, guid: fc2c60d64a48d744283f9ddb8ee4661b, type: 2}
   - {fileID: 11400000, guid: 6cc8bf6d250dd284bb851ca9717efa60, type: 2}
-  - {fileID: 11400000, guid: a6bb8c26f66b4ae44ac321b77b79a0a2, type: 2}
-  - {fileID: 11400000, guid: ba735aeebd1d3574c8bae55c098064ef, type: 2}
-  - {fileID: 11400000, guid: 7fd891b9fc2c28e4184e28a94daf26af, type: 2}
-  - {fileID: 11400000, guid: 26fbf5a2c6a33c645abab774bbbcff2b, type: 2}
-  - {fileID: 11400000, guid: 286744a1f1010ea4fa3d42d5c938cb31, type: 2}
-  - {fileID: 11400000, guid: b8dac2e9dce2dc043b5c5ef7cb149d58, type: 2}
-  - {fileID: 11400000, guid: 2e397c17f6cdce54289db753a49c2d9a, type: 2}
+  - {fileID: 11400000, guid: ed996714c43e02b49b96e49b5f6f66e1, type: 2}
+  - {fileID: 11400000, guid: fe214e8945e6a414ca6216ff3ae3163a, type: 2}
+  - {fileID: 11400000, guid: 9c9242b7d0b23da4f98bcfea78cebed0, type: 2}
   _cardPrefab: {fileID: 5577986543885845793, guid: 5b3ebaa0615aa0c4e932e844549ad1c0, type: 3}
   _cardContainer: {fileID: 364959415}
   _panel: {fileID: 412332182}

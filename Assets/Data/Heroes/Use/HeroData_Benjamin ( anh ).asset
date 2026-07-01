@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e42d63db6575442baaffb612e23188, type: 3}
+  m_Name: HeroData_Benjamin ( anh )
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.HeroData
+  unitName: ...
+  description: "Hacker kinh t\u1EBF \u2014 kh\xF4ng chi\u1EBFn \u0111\u1EA5u nh\u01B0ng
+    sinh gold v\xE0 hack tower."
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
+  prefab: {fileID: 815413006350965980, guid: a0a56d63be708594097c3d37af66440a, type: 3}
+  cost: 1200
+  terrainType: 0
+  maxLevel: 20
+  attackRange: 0.1
+  attackSpeed: 1
+  damage: 0
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  - tiers:
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+    - upgradeName: 
+      xpUnlockCost: 0
+      goldBuyCost: 0
+      description: 
+      statChanges: []
+  skills:
+  - {fileID: 11400000, guid: 6d9261e4db00dc14aba9388f3ea6a7f3, type: 2}
+  - {fileID: 11400000, guid: 49773e725e20d80438d23a929db3ba76, type: 2}
+  - {fileID: 11400000, guid: 232338e4eeec4d041a74f7fe5454876d, type: 2}
+  levelAbilities:
+  - level: 3
+    abilityName: Syphon Funding
+    description: "+$200 v\xE0o t\xE0i kho\u1EA3n ngay l\u1EADp t\u1EE9c."
+    skillUnlocked: {fileID: 11400000, guid: 6d9261e4db00dc14aba9388f3ea6a7f3, type: 2}
+  - level: 8
+    abilityName: Biohack
+    description: "Hack tower g\u1EA7n nh\u1EA5t: \xD72 attack speed trong 15s."
+    skillUnlocked: {fileID: 11400000, guid: 49773e725e20d80438d23a929db3ba76, type: 2}
+  - level: 12
+    abilityName: Skimming
+    description: "(Passive) Cu\u1ED1i m\u1ED7i round t\u1EF1 \u0111\u1ED9ng nh\u1EADn
+      +$200."
+    skillUnlocked: {fileID: 11400000, guid: 232338e4eeec4d041a74f7fe5454876d, type: 2}

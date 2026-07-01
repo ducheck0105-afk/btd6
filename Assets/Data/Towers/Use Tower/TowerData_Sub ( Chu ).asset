@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494ccf3851eb9f741a52ad6d00d80b56, type: 3}
+  m_Name: TowerData_Sub ( Chu )
+  m_EditorClassIdentifier: Assembly-CSharp::BloonsTD.Data.TowerData
+  unitName: "Ch\xFA"
+  description: "T\xE0u ng\u1EA7m \u0111\u1EB7t d\u01B0\u1EDBi n\u01B0\u1EDBc \u2014
+    b\u1EAFn ng\u01B0 l\xF4i nhanh."
+  icon: {fileID: 21300000, guid: a71b90c3eef91a54282cfba5d68f1a16, type: 3}
+  prefab: {fileID: 2538151795418960276, guid: 97df7ef0ce5f87841ab1c370c4a6d2dc, type: 3}
+  cost: 325
+  terrainType: 1
+  towerType: 7
+  towerCategory: 1
+  attackRange: 3.5
+  attackSpeed: 2.5
+  damage: 1
+  pierce: 1
+  defaultTarget: 0
+  canSeeCamo: 0
+  canPierceLead: 0
+  isMagicProjectile: 0
+  upgrades:
+  - tiers:
+    - upgradeName: Longer Range
+      xpUnlockCost: 0
+      goldBuyCost: 100
+      description: "T\u1EA7m +0.5."
+      statChanges:
+      - type: 2
+        op: 0
+        value: 0.5
+    - upgradeName: Advanced Intel
+      xpUnlockCost: 200
+      goldBuyCost: 500
+      description: "Target enemy m\xE0 tower kh\xE1c \u0111ang b\u1EAFn."
+      statChanges: []
+    - upgradeName: Submerge Support
+      xpUnlockCost: 600
+      goldBuyCost: 500
+      description: "Detect Camo trong t\u1EA7m."
+      statChanges: []
+    - upgradeName: Pre-Emptive Strike
+      xpUnlockCost: 3500
+      goldBuyCost: 5000
+      description: "Auto-ph\xE1t hi\u1EC7n MOAB s\u1EDBm."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 5
+    - upgradeName: Sub Commander
+      xpUnlockCost: 12000
+      goldBuyCost: 26000
+      description: "Tower g\u1EA7n +1 xuy\xEAn, +10% t\u1ED1c."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 1
+  - tiers:
+    - upgradeName: Barbed Darts
+      xpUnlockCost: 0
+      goldBuyCost: 200
+      description: "Xuy\xEAn +2."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Heat-Tipped
+      xpUnlockCost: 200
+      goldBuyCost: 200
+      description: "\u0110\u1EA1n n\xF3ng xuy\xEAn Lead."
+      statChanges: []
+    - upgradeName: Airburst Darts
+      xpUnlockCost: 600
+      goldBuyCost: 650
+      description: "\u0110\u1EA1n t\xE1ch 3 khi tr\xFAng l\u1EA7n \u0111\u1EA7u."
+      statChanges:
+      - type: 1
+        op: 0
+        value: 2
+    - upgradeName: Triple Guns
+      xpUnlockCost: 3500
+      goldBuyCost: 1200
+      description: "B\u1EAFn 3 \u0111\u1EA1n c\xF9ng l\xFAc."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.5
+    - upgradeName: Bloontonium Lab
+      xpUnlockCost: 12000
+      goldBuyCost: 6500
+      description: Passive +$80/round.
+      statChanges: []
+  - tiers:
+    - upgradeName: Twin Guns
+      xpUnlockCost: 0
+      goldBuyCost: 300
+      description: "T\u1ED1c \u0111\u1ED9 \xD71.5."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.5
+    - upgradeName: Turbo Charge
+      xpUnlockCost: 200
+      goldBuyCost: 400
+      description: "T\u1ED1c \u0111\u1ED9 \xD71.8."
+      statChanges:
+      - type: 3
+        op: 1
+        value: 1.8
+    - upgradeName: Armor Piercing
+      xpUnlockCost: 600
+      goldBuyCost: 500
+      description: "+1 damage, xuy\xEAn Lead."
+      statChanges:
+      - type: 0
+        op: 0
+        value: 1
+    - upgradeName: Sub Reactor
+      xpUnlockCost: 3500
+      goldBuyCost: 3000
+      description: +2 damage, aura 1dmg/s quanh sub.
+      statChanges:
+      - type: 0
+        op: 0
+        value: 2
+    - upgradeName: Energizer
+      xpUnlockCost: 12000
+      goldBuyCost: 25000
+      description: "Gi\u1EA3m XP req hero 25%, CD abilities."
+      statChanges: []

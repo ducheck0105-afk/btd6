@@ -17,6 +17,7 @@ namespace BloonsTD.UI
             _quitBtn.onClick.AddListener(Application.Quit);
             _backBtn.onClick.AddListener(CloseMapSelect);
 
+            AudioManager.instance.PlayMenuMusic(); // BGM menu (PlayMusic chặn phát trùng nếu GameManager đã bật)
             ShowMainMenu();
         }
 

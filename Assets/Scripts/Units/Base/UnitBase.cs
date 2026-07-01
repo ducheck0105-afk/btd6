@@ -65,6 +65,9 @@ namespace BloonsTD.Units
         /// <summary>Báo cho UnitAnimator: nhìn theo dir (zero = giữ hướng cũ) + phát nhịp đánh.</summary>
         protected void PlayAttackAnim(Vector2 dir)
         {
+            // SFX trước, không phụ thuộc animator (tower không gắn UnitAnimator vẫn có tiếng bắn)
+            AudioManager.instance.PlayAttack();
+
             if (UAnim == null) return;
             UAnim.SetFacing(dir);
             UAnim.PlayAttack();

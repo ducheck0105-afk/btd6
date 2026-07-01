@@ -4,7 +4,7 @@ using UnityEngine;
 namespace _0.Game.Scripts.Common
 {
     
-    // SingletonMono<AudioManager>.Instance.PlayAudiosOnSelf("Click");
+    // Âm thanh: AudioManager.instance.PlayButton();  (xem Assets/Scripts/Core/AudioManager.cs)
     public static class AnimationHelper
     {
         public static void ScaleInPopup(this Transform obj)
